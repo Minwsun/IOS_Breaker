@@ -1,5 +1,5 @@
-name: All In One Final + YouTube
-desc: Crack Apps Premium + YouTube Premium cho iOS by Minwsun
+name: All In One + YouTube via ScriptHub
+desc: Crack Apps Premium + YouTube via Script-Hub by Minwsun
 
 subscribe-url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/Stash_Final.stoverride
 
@@ -13,14 +13,16 @@ force-http-engine-hosts:
 rules:
   - AND,((DOMAIN-SUFFIX,googlevideo.com),(NETWORK,UDP)),REJECT
   - AND,((DOMAIN,youtubei.googleapis.com),(NETWORK,UDP)),REJECT
+  - AND,((DOMAIN-SUFFIX,youtube.com),(NETWORK,UDP)),REJECT
 
 mitm:
   enable: true
   hostname:
     - "*.googlevideo.com"
-    - youtubei.googleapis.com
-    - www.youtube.com
-    - s.youtube.com
+    - "youtubei.googleapis.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
+    - "-redirector*.googlevideo.com"
     - "premium*.truecaller.com"
     - sub.store
     - api.revenuecat.com
@@ -97,19 +99,24 @@ script-providers:
     interval: 86400
 
 http:
+  force-http-engine:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+    - "*.youtube.com"
+
   map-local:
     - match: ^https?://[\w-]+\.googlevideo\.com/initplayback.+&oad
       data: ""
       status-code: 200
 
   script:
-    # YouTube Premium - Maasea Script
-    - match: ^https://youtubei\.googleapis\.com/(youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch))(\?(.*))?$
-      name: youtube-script
+    # YouTube Premium - Maasea Script (Response Only)
+    - match: ^https://youtubei\.googleapis\.com/youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch)
+      name: youtube-response
       type: response
-      timeout: 60
+      timeout: 120
       require-body: true
-      max-size: -1
+      max-size: 3145728
       binary-body-mode: true
       script: youtube-script
       argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
