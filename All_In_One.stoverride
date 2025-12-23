@@ -2,8 +2,8 @@ name: All In One
 desc: Crack Apps Premium cho iOS - Stash Version by Minwsun
 
 rules:
-  - DOMAIN-SUFFIX,googlevideo.com,REJECT,no-resolve,extended-matching
-  - DOMAIN,youtubei.googleapis.com,REJECT,no-resolve,extended-matching
+  - DOMAIN-SUFFIX,googlevideo.com,REJECT
+  - DOMAIN,youtubei.googleapis.com,REJECT
 
 mitm:
   enable: true
@@ -36,10 +36,6 @@ http:
     - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
     - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
-
-  header-rewrite:
-    - ^https?://api\.revenuecat\.com/.+/(receipts|subscribers) header-del x-revenuecat-etag
-    - ^https?://api\.revenuecat\.com/.+/(receipts|subscribers) header-del X-RevenueCat-ETag
 
   script:
     # ==================== YouTube Premium ====================
@@ -101,7 +97,7 @@ http:
       script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/PicsArt.js
 
     # ==================== Wink ====================
-    - match: ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json
+    - match: ^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json
       name: Wink
       type: response
       timeout: 60
@@ -109,7 +105,7 @@ http:
       script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/WinkVipCrack.js
 
     # ==================== Truecaller ====================
-    - match: ^https://premium-.+\.truecaller\.com/v\d/(subscriptions|products\/apple)
+    - match: ^https://premium-.+\.truecaller\.com/v\d/(subscriptions|products/apple)
       name: Truecaller
       type: response
       timeout: 60
@@ -133,7 +129,7 @@ http:
       script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/Kinemaster.js
 
     # ==================== CamScanner ====================
-    - match: ^https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_prop
+    - match: ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_prop
       name: CamScanner
       type: response
       timeout: 60
@@ -171,7 +167,7 @@ http:
       script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/revenuecat.js
 
     # ==================== iTunes ====================
-    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+    - match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
       name: iTunes
       type: response
       timeout: 60
@@ -179,7 +175,7 @@ http:
       script-path: https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
 
     # ==================== Snow ====================
-    - match: ^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status
+    - match: ^https:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status
       name: Snow
       type: response
       timeout: 60
@@ -187,7 +183,7 @@ http:
       script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/Snow.js
 
     # ==================== Meitu ====================
-    - match: ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/
+    - match: ^https:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/
       name: Meitu
       type: response
       timeout: 60
