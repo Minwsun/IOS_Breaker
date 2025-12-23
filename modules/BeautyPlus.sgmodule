@@ -1,10 +1,9 @@
 #!url=https://github.com/Minwsun/IOS_Breaker/blob/main/modules/BeautyPlus.sgmodule
 #!name=BeautyPlus
-#!desc=Crack By duyvinh09
-#!====================================
+#!desc=BeautyPlus Premium Unlock
 
 [MITM]
 hostname = %APPEND% api.mr.pixocial.com, newbeee-api.beautyplus.com
 
 [Script]
-BeautyPlus = type=http-response, pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance), script-path=https://raw.githubusercontent.com/vuong2023/shad/main/js/BeautyPlus.js, requires-body=true, max-size=-1, timeout=60
+BeautyPlus = type=http-response, pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance), script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/BeautyPlus.js, requires-body=true, max-size=-1, timeout=60

@@ -6,7 +6,7 @@
 hostname = api-sub.meitu.com
 *******************************/
 
-var lienHe = "t.me/duyvinh09";
+var lienHe = "github.com/Minwsun/IOS_Breaker";
 var _a = {};
 (function (options) {
     options._decode = "http://www.sojson.com/javascriptobfuscator.html";
@@ -53,11 +53,11 @@ $done({
     _0xcbd8x8 = "undefined";
     _0xcbd8x6 = function (_0xcbd8x9) {
         if (typeof alert !== _0xcbd8x8) {
-        alert(_0xcbd8x9);
+            alert(_0xcbd8x9);
         }
         ;
         if (typeof console !== _0xcbd8x8) {
-        console.log(_0xcbd8x9);
+            console.log(_0xcbd8x9);
         }
     };
     _0xcbd8x5 = function (_0xcbd8xa, _0xcbd8x3) {
@@ -67,7 +67,7 @@ $done({
     try {
         _0xcbd8x3 = lienHe;
         if (typeof _0xcbd8x3 === _0xcbd8x8 || _0xcbd8x3 !== _0xcbd8x5("jsjia", "mi.com")) {
-        _0xcbd8x6(_0xcbd8x7);
+            _0xcbd8x6(_0xcbd8x7);
         }
     } catch (e) {
         _0xcbd8x6(_0xcbd8x7);

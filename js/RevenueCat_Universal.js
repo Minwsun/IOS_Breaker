@@ -69,7 +69,7 @@ function getDynamicDates() {
   };
 }
 
-// =========   Enhanced by @duyvinh09 ========= // 
+// ========= RevenueCat Universal Script ========= //
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
 
@@ -78,9 +78,7 @@ const dates = getDynamicDates();
 const transactionId = generateRandomId(32);
 const originalTransactionId = generateRandomId(32);
 
-obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
-
-var duyvinh09 = {
+var subscriptionData = {
   is_sandbox: false,
   ownership_type: "PURCHASED",
   billing_issues_detected_at: null,
@@ -94,10 +92,10 @@ var duyvinh09 = {
   transaction_id: transactionId,
   original_transaction_id: originalTransactionId
 },
-  locketGold = {
+  entitlementData = {
     grace_period_expires_date: null,
     purchase_date: dates.purchase_date,
-    product_identifier: "com.duyvinh09.premium.yearly",
+    product_identifier: "com.app.premium.yearly",
     expires_date: dates.expires_date,
     original_purchase_date: dates.original_purchase_date
   };
@@ -105,8 +103,8 @@ var duyvinh09 = {
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
   let [e, s] = mapping[match];
-  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = duyvinh09) : obj.subscriber.subscriptions["com.duyvinh09.premium.yearly"] = duyvinh09, obj.subscriber.entitlements[e] = locketGold
-} else obj.subscriber.subscriptions["com.duyvinh09.premium.yearly"] = duyvinh09, obj.subscriber.entitlements.pro = locketGold;
+  s ? (entitlementData.product_identifier = s, obj.subscriber.subscriptions[s] = subscriptionData) : obj.subscriber.subscriptions["com.app.premium.yearly"] = subscriptionData, obj.subscriber.entitlements[e] = entitlementData
+} else obj.subscriber.subscriptions["com.app.premium.yearly"] = subscriptionData, obj.subscriber.entitlements.pro = entitlementData;
 
 $done({
   body: JSON.stringify(obj)
