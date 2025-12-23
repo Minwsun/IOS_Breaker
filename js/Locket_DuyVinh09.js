@@ -1,7 +1,40 @@
-// ========= ID ========= //
+// ========= Supported Apps Mapping ========= //
+// Add app identifier (from User-Agent) -> [entitlement, subscription_id]
 const mapping = {
+  // Original apps
   '%E8%BD%A6%E7%A5%A8%E7%A5%A8': ['vip+watch_vip'],
-  'Locket': ['Gold']
+  'Locket': ['Gold'],
+
+  // Photo/Video Editors
+  'Canva': ['pro', 'canva_pro_yearly'],
+  'CapCut': ['pro', 'capcut_pro'],
+  'InShot': ['pro', 'inshot_pro_yearly'],
+  'VN': ['pro', 'vn_pro_yearly'],
+  'Mojo': ['pro', 'mojo_pro'],
+  'Unfold': ['pro', 'unfold_pro'],
+  'PREQUEL': ['pro', 'prequel_pro'],
+  'Facetune': ['pro', 'facetune_pro'],
+
+  // Productivity
+  'Notion': ['pro', 'notion_pro'],
+  'Craft': ['pro', 'craft_pro'],
+  'Bear': ['pro', 'bear_pro'],
+  'GoodNotes': ['pro', 'goodnotes_pro'],
+
+  // Health & Wellness
+  'Calm': ['premium', 'calm_premium'],
+  'Headspace': ['plus', 'headspace_plus'],
+  'Flo': ['premium', 'flo_premium'],
+  'Clue': ['plus', 'clue_plus'],
+
+  // Utilities
+  'Scanner': ['pro', 'scanner_pro'],
+  'PDF': ['pro', 'pdf_pro'],
+  '1Password': ['premium', '1password_premium'],
+
+  // Social
+  'Splice': ['pro', 'splice_pro'],
+  'VITA': ['pro', 'vita_pro']
 };
 
 // ========= Dynamic Helper Functions ========= //
