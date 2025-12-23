@@ -5,6 +5,23 @@ const mapping = {
   '%E8%BD%A6%E7%A5%A8%E7%A5%A8': ['vip+watch_vip'],
   'Locket': ['Gold'],
 
+  // Camera Apps (NEW)
+  'VarLens': ['pro', 'varlens_pro'],
+  'Halide': ['pro', 'halide_pro'],
+  'ProCamera': ['pro', 'procamera_pro'],
+  'Darkroom': ['pro', 'darkroom_pro'],
+  'NOMO': ['pro', 'nomo_pro'],
+  'Dazz': ['pro', 'dazz_pro'],
+  '1998': ['pro', '1998_cam_pro'],
+  'Huji': ['pro', 'huji_pro'],
+  'Kira': ['pro', 'kira_pro'],
+  'Spectre': ['pro', 'spectre_pro'],
+  'Focos': ['pro', 'focos_pro'],
+  'ProShot': ['pro', 'proshot_pro'],
+  'Camera+': ['pro', 'cameraplus_pro'],
+  'Moment': ['pro', 'moment_pro'],
+  'Obscura': ['pro', 'obscura_pro'],
+
   // Photo/Video Editors
   'Canva': ['pro', 'canva_pro_yearly'],
   'CapCut': ['pro', 'capcut_pro'],
