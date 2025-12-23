@@ -1,11 +1,19 @@
-name: All In One Final
-desc: Crack Apps Premium cho iOS by Minwsun (No YouTube)
+name: All In One Final + YouTube
+desc: Crack Apps Premium + YouTube Premium cho iOS by Minwsun
 
 subscribe-url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/Stash_Final.stoverride
+
+rules:
+  - AND,((DOMAIN-SUFFIX,googlevideo.com),(NETWORK,UDP)),REJECT
+  - AND,((DOMAIN,youtubei.googleapis.com),(NETWORK,UDP)),REJECT
 
 mitm:
   enable: true
   hostname:
+    - "*.googlevideo.com"
+    - youtubei.googleapis.com
+    - www.youtube.com
+    - s.youtube.com
     - "premium*.truecaller.com"
     - sub.store
     - api.revenuecat.com
@@ -26,6 +34,9 @@ mitm:
     - api.xiuxiu.meitu.com
 
 script-providers:
+  youtube-script:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js
+    interval: 86400
   spotify-json:
     url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/spotify-json.js
     interval: 86400
@@ -79,7 +90,24 @@ script-providers:
     interval: 86400
 
 http:
+  map-local:
+    - match: ^https?://[\w-]+\.googlevideo\.com/initplayback.+&oad
+      data: ""
+      status-code: 200
+
   script:
+    # YouTube Premium - Maasea Script
+    - match: ^https://youtubei\.googleapis\.com/(youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch))(\?(.*))?$
+      name: youtube-script
+      type: response
+      timeout: 60
+      require-body: true
+      max-size: -1
+      binary-body-mode: true
+      script: youtube-script
+      argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
+
+    # Spotify Premium
     - match: ^https://spclient\.wg\.spotify\.com/(artistview/v1/artist|album-entity-view/v2/album)/
       name: spotify-json
       type: request
@@ -94,6 +122,7 @@ http:
       binary-body-mode: true
       script: spotify-proto
 
+    # SoundCloud Go+
     - match: ^https://api-mobile\.soundcloud\.com/configuration/ios
       name: soundcloud
       type: response
@@ -101,6 +130,7 @@ http:
       require-body: true
       script: soundcloud
 
+    # Alight Motion
     - match: ^https://us-central1-alight-creative\.cloudfunctions\.net/getAccountStatusAndLicenses
       name: alight-motion
       type: response
@@ -108,6 +138,7 @@ http:
       require-body: true
       script: alight-motion
 
+    # PicsArt
     - match: ^https://api\.picsart\.com/gw-v2/shop/subscription/apple/purchases
       name: picsart
       type: request
@@ -115,6 +146,7 @@ http:
       require-body: true
       script: picsart
 
+    # Wink
     - match: ^https://api-sub\.meitu\.com/v2/user/vip_info_by_group\.json
       name: wink
       type: response
@@ -122,6 +154,7 @@ http:
       require-body: true
       script: wink
 
+    # Truecaller
     - match: ^https://premium-.*\.truecaller\.com/v[0-9]/(subscriptions|products/apple)
       name: truecaller
       type: response
@@ -129,6 +162,7 @@ http:
       require-body: true
       script: truecaller
 
+    # Lightroom
     - match: ^https://photos\.adobe\.io/v[0-9]/accounts
       name: lightroom
       type: response
@@ -136,6 +170,7 @@ http:
       require-body: true
       script: lightroom
 
+    # Kinemaster
     - match: ^https://api-account\.kinemasters\.com/v[0-9]/user/subscribe$
       name: kinemaster
       type: response
@@ -143,6 +178,7 @@ http:
       require-body: true
       script: kinemaster
 
+    # CamScanner
     - match: ^https://(api|api-cs)\.intsig\.net/purchase/cs/query_prop
       name: camscanner
       type: response
@@ -150,6 +186,7 @@ http:
       require-body: true
       script: camscanner
 
+    # BeautyPlus
     - match: ^https://(api\.mr\.pixocial\.com/v1/manual_unlock|newbeee-api\.beautyplus\.com/api/v1/asset/balance)
       name: beautyplus
       type: response
@@ -157,6 +194,7 @@ http:
       require-body: true
       script: beautyplus
 
+    # Locket Gold
     - match: ^https://api\.revenuecat\.com/.+/(receipts$|subscribers/[^/]+$)
       name: locket
       type: response
@@ -170,6 +208,7 @@ http:
       timeout: 60
       script: deleteheader
 
+    # RevenueCat VIP
     - match: ^https://api\.(revenuecat|rc-backup)\.com/.+/(receipts$|subscribers/[^/]+$)
       name: revenuecat
       type: response
@@ -177,6 +216,7 @@ http:
       require-body: true
       script: revenuecat
 
+    # iTunes
     - match: ^https://buy\.itunes\.apple\.com/verifyReceipt$
       name: itunes
       type: response
@@ -184,6 +224,7 @@ http:
       require-body: true
       script: itunes
 
+    # Snow
     - match: ^https://user-snow-api\.snow\.me/v[0-9]/purchase/subscription/subscriber/status
       name: snow
       type: response
@@ -191,6 +232,7 @@ http:
       require-body: true
       script: snow
 
+    # Meitu
     - match: ^https://(h5|api)\.xiuxiu\.meitu\.com/v[0-9]/(h[0-9]/vip|vip|user)/
       name: meitu
       type: response
