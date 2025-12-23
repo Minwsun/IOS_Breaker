@@ -1,0 +1,184 @@
+# All In One - Stash Config
+# By Minwsun
+# URL: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/All_In_One_Stash.yaml
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+
+http:
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
+    - "premium*.truecaller.com"
+    - "sub.store"
+    - "api.revenuecat.com"
+    - "api.rc-backup.com"
+    - "buy.itunes.apple.com"
+    - "spclient.wg.spotify.com"
+    - "api-mobile.soundcloud.com"
+    - "api.picsart.com"
+    - "us-central1-alight-creative.cloudfunctions.net"
+    - "api-sub.meitu.com"
+    - "photos.adobe.io"
+    - "*.intsig.net"
+    - "api-account.kinemasters.com"
+    - "api.mr.pixocial.com"
+    - "newbeee-api.beautyplus.com"
+    - "user-snow-api.snow.me"
+    - "h5.xiuxiu.meitu.com"
+    - "api.xiuxiu.meitu.com"
+
+  script:
+    - match: ^https://youtubei\.googleapis\.com/youtubei/v1/(browse|next|player|reel/reel_watch_sequence|get_watch)
+      name: youtube-request
+      type: request
+      timeout: 60
+      require-body: true
+      max-size: -1
+      binary-body-mode: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/youtube.response.js
+
+    - match: ^https://youtubei\.googleapis\.com/(youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch))
+      name: youtube-response
+      type: response
+      timeout: 60
+      require-body: true
+      max-size: -1
+      binary-body-mode: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/youtube.response.js
+
+    - match: ^https://spclient\.wg\.spotify\.com/(artistview/v1/artist|album-entity-view/v2/album)/
+      name: spotify-json
+      type: request
+      timeout: 60
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/spotify-json.js
+
+    - match: ^https://spclient\.wg\.spotify\.com/(bootstrap/v1/bootstrap|user-customization-service/v1/customize)$
+      name: spotify-proto
+      type: response
+      timeout: 60
+      require-body: true
+      binary-body-mode: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/spotify-proto.js
+
+    - match: ^https://api-mobile\.soundcloud\.com/configuration/ios
+      name: soundcloud
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/SoundCloudGoPlus.js
+
+    - match: ^https://us-central1-alight-creative\.cloudfunctions\.net/getAccountStatusAndLicenses
+      name: alight-motion
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/AlightMotion.js
+
+    - match: ^https://api\.picsart\.com/gw-v2/shop/subscription/apple/purchases
+      name: picsart
+      type: request
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/PicsArt.js
+
+    - match: ^https://api-sub\.meitu\.com/v2/user/vip_info_by_group\.json
+      name: wink
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/WinkVipCrack.js
+
+    - match: ^https://premium-.*\.truecaller\.com/v[0-9]/(subscriptions|products/apple)
+      name: truecaller
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/TrueCaller.js
+
+    - match: ^https://photos\.adobe\.io/v[0-9]/accounts
+      name: lightroom
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/lightroom.js
+
+    - match: ^https://api-account\.kinemasters\.com/v[0-9]/user/subscribe$
+      name: kinemaster
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/Kinemaster.js
+
+    - match: ^https://(api|api-cs)\.intsig\.net/purchase/cs/query_prop
+      name: camscanner
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/camScanner.js
+
+    - match: ^https://(api\.mr\.pixocial\.com/v1/manual_unlock|newbeee-api\.beautyplus\.com/api/v1/asset/balance)
+      name: beautyplus
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/BeautyPlus.js
+
+    - match: ^https://api\.revenuecat\.com/.+/(receipts$|subscribers/[^/]+$)
+      name: locket
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/Locket_DuyVinh09.js
+
+    - match: ^https://api\.revenuecat\.com/.+/(receipts|subscribers)
+      name: delete-header
+      type: request
+      timeout: 60
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/deleteHeader.js
+
+    - match: ^https://api\.(revenuecat|rc-backup)\.com/.+/(receipts$|subscribers/[^/]+$)
+      name: revenuecat
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/revenuecat.js
+
+    - match: ^https://buy\.itunes\.apple\.com/verifyReceipt$
+      name: itunes
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+
+    - match: ^https://user-snow-api\.snow\.me/v[0-9]/purchase/subscription/subscriber/status
+      name: snow
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/Snow.js
+
+    - match: ^https://(h5|api)\.xiuxiu\.meitu\.com/v[0-9]/(h[0-9]/vip|vip|user)/
+      name: meitu
+      type: response
+      timeout: 60
+      require-body: true
+      script-path: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/MeiTuXiuXiu.js
+
+rules:
+  - DOMAIN-SUFFIX,googlevideo.com,REJECT
+  - DOMAIN,youtubei.googleapis.com,REJECT
+  - MATCH,DIRECT
