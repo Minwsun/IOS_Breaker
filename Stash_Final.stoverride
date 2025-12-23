@@ -1,19 +1,11 @@
 name: All In One Final
-desc: Crack Apps Premium cho iOS by Minwsun
+desc: Crack Apps Premium cho iOS by Minwsun (No YouTube)
 
 subscribe-url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/Stash_Final.stoverride
-
-rules:
-  - DOMAIN-SUFFIX,googlevideo.com,REJECT
-  - DOMAIN,youtubei.googleapis.com,REJECT
 
 mitm:
   enable: true
   hostname:
-    - "*.googlevideo.com"
-    - youtubei.googleapis.com
-    - www.youtube.com
-    - s.youtube.com
     - "premium*.truecaller.com"
     - sub.store
     - api.revenuecat.com
@@ -34,12 +26,6 @@ mitm:
     - api.xiuxiu.meitu.com
 
 script-providers:
-  youtube-request:
-    url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/youtube.response.js
-    interval: 86400
-  youtube-response:
-    url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/youtube.response.js
-    interval: 86400
   spotify-json:
     url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/spotify-json.js
     interval: 86400
@@ -94,24 +80,6 @@ script-providers:
 
 http:
   script:
-    - match: ^https://youtubei\.googleapis\.com/youtubei/v1/(browse|next|player|reel/reel_watch_sequence|get_watch)
-      name: youtube-request
-      type: request
-      timeout: 60
-      require-body: true
-      max-size: -1
-      binary-body-mode: true
-      script: youtube-request
-
-    - match: ^https://youtubei\.googleapis\.com/(youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch))
-      name: youtube-response
-      type: response
-      timeout: 60
-      require-body: true
-      max-size: -1
-      binary-body-mode: true
-      script: youtube-response
-
     - match: ^https://spclient\.wg\.spotify\.com/(artistview/v1/artist|album-entity-view/v2/album)/
       name: spotify-json
       type: request
