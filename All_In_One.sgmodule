@@ -1,12 +1,4 @@
-#!name=All In One
-#!desc=Được tổng hợp bởi Đinh Duy Vinh
-#!author=duyvinh09
-#!homepage=https://module-ios.vercel.app
-#!tgchannel=https://t.me/tienich
-#!moduleUrl=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/All_In_One.sgmodule
-#!icon=https://module-ios.vercel.app/assets/img/shadowrocket.webp
-#!howtouse=Shadowrocket
-#Shadowrocket Configuration - All IN ONE
+
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
@@ -112,7 +104,7 @@ RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backu
 
 #iTunes
 #hostname = buy.itunes.apple.com
-iTunes = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js, requires-body=true, max-size=-1, timeout=60
+iTunes = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/iTunes.js, requires-body=true, max-size=-1, timeout=60
 #************************************#
 
 #Snow
