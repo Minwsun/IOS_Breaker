@@ -1,28 +1,11 @@
-name: All In One + YouTube via ScriptHub
-desc: Crack Apps Premium + YouTube via Script-Hub by Minwsun
+name: All In One (No YouTube)
+desc: Crack Apps Premium cho iOS by Minwsun
 
 subscribe-url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/Stash_Final.stoverride
-
-# Force HTTP Engine for YouTube
-force-http-engine-hosts:
-  - "*.googlevideo.com"
-  - "youtubei.googleapis.com"
-  - "*.youtube.com"
-
-# Block QUIC to prevent bypass
-rules:
-  - AND,((DOMAIN-SUFFIX,googlevideo.com),(NETWORK,UDP)),REJECT
-  - AND,((DOMAIN,youtubei.googleapis.com),(NETWORK,UDP)),REJECT
-  - AND,((DOMAIN-SUFFIX,youtube.com),(NETWORK,UDP)),REJECT
 
 mitm:
   enable: true
   hostname:
-    - "*.googlevideo.com"
-    - "youtubei.googleapis.com"
-    - "www.youtube.com"
-    - "s.youtube.com"
-    - "-redirector*.googlevideo.com"
     - "premium*.truecaller.com"
     - sub.store
     - api.revenuecat.com
@@ -43,9 +26,6 @@ mitm:
     - api.xiuxiu.meitu.com
 
 script-providers:
-  youtube-response:
-    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js
-    interval: 86400
   spotify-json:
     url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/js/spotify-json.js
     interval: 86400
@@ -99,28 +79,7 @@ script-providers:
     interval: 86400
 
 http:
-  force-http-engine:
-    - "*.googlevideo.com"
-    - "youtubei.googleapis.com"
-    - "*.youtube.com"
-
-  map-local:
-    - match: ^https?://[\w-]+\.googlevideo\.com/initplayback.+&oad
-      data: ""
-      status-code: 200
-
   script:
-    # YouTube Premium - Maasea Script (Response Only)
-    - match: ^https://youtubei\.googleapis\.com/youtubei/v1/(browse|next|player|search|reel/reel_watch_sequence|guide|account/get_setting|get_watch)
-      name: youtube-response
-      type: response
-      timeout: 120
-      require-body: true
-      max-size: 3145728
-      binary-body-mode: true
-      script: youtube-response
-      argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
-
     # Spotify Premium
     - match: ^https://spclient\.wg\.spotify\.com/(artistview/v1/artist|album-entity-view/v2/album)/
       name: spotify-json
