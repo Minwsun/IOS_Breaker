@@ -1,7 +1,3 @@
-# TikTok Advertising Rules
-# Block TikTok ads, analytics, and tracking
-
-# TikTok Ads
 DOMAIN-SUFFIX,ads.tiktok.com
 DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,ads-sg.tiktok.com
@@ -12,8 +8,6 @@ DOMAIN-SUFFIX,business.tiktok.com
 DOMAIN-SUFFIX,business-api.tiktok.com
 DOMAIN-SUFFIX,ads.byteoversea.com
 DOMAIN-SUFFIX,analytics.byteoversea.com
-
-# TikTok Analytics & Tracking
 DOMAIN-SUFFIX,log.tiktokv.com
 DOMAIN-SUFFIX,log.byteoversea.com
 DOMAIN-SUFFIX,log-va.tiktokv.com
@@ -23,18 +17,12 @@ DOMAIN-SUFFIX,mon.tiktokv.com
 DOMAIN-SUFFIX,mon-va.tiktokv.com
 DOMAIN-SUFFIX,mon.byteoversea.com
 DOMAIN-SUFFIX,webcast-log.tiktokv.com
-
-# Pangle (TikTok Ad Network)
 DOMAIN-SUFFIX,pangle-ads.bytedance.com
 DOMAIN-SUFFIX,pangleglobal.com
 DOMAIN-SUFFIX,bytemob.com
-
-# DouYin China Ads (if using Chinese version)
 DOMAIN-SUFFIX,ad.douyin.com
 DOMAIN-SUFFIX,analytics.douyin.com
 DOMAIN-SUFFIX,graylog.douyin.com
-
-# General ByteDance Analytics
 DOMAIN-SUFFIX,applog.tiktokv.com
 DOMAIN-SUFFIX,applog.byteoversea.com
 DOMAIN-SUFFIX,toblog.tiktokv.com

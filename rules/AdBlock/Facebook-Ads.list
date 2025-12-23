@@ -1,7 +1,3 @@
-# Facebook/Meta Advertising Rules
-# Block Facebook, Instagram, WhatsApp ads and tracking
-
-# Facebook Ads
 DOMAIN-SUFFIX,ads.facebook.com
 DOMAIN-SUFFIX,an.facebook.com
 DOMAIN-SUFFIX,ads-api.facebook.com
@@ -10,41 +6,26 @@ DOMAIN-SUFFIX,pixel.facebook.com
 DOMAIN-SUFFIX,tr.facebook.com
 DOMAIN-KEYWORD,facebook-ads
 DOMAIN-KEYWORD,fbads
-
-# Facebook Analytics & Tracking
 DOMAIN-SUFFIX,analytics.facebook.com
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,pixel.instagram.com
 DOMAIN-SUFFIX,badge.facebook.com
 DOMAIN-SUFFIX,events.facebook.com
-
-# Facebook Ad Network (Audience Network)
 DOMAIN-SUFFIX,audience.facebook.com
 DOMAIN-SUFFIX,audiencenetwork.facebook.com
 DOMAIN-SUFFIX,bidder.facebook.com
 DOMAIN-SUFFIX,admarket.facebook.com
-
-# Instagram Ads
 DOMAIN-SUFFIX,ads.instagram.com
 DOMAIN-SUFFIX,business.instagram.com
 DOMAIN-SUFFIX,i.instagram.com
-
-# Meta Business Tools
 DOMAIN-SUFFIX,business.whatsapp.com
 DOMAIN-SUFFIX,atlas.facebook.com
 DOMAIN-SUFFIX,conversion.facebook.com
-
-# Facebook Telemetry
 DOMAIN-SUFFIX,error.facebook.com
 DOMAIN-SUFFIX,crashlogs.facebook.com
 DOMAIN-SUFFIX,logging.facebook.com
 DOMAIN-SUFFIX,perf.facebook.com
-
-# Dynamic Ad Domains
 DOMAIN-KEYWORD,facebookads
 DOMAIN-KEYWORD,fbpixel
 DOMAIN-KEYWORD,fb-ads
 DOMAIN-KEYWORD,insta-ads
-
-# IP Ranges for FB Ads (use carefully)
-# IP-CIDR,157.240.0.0/16,REJECT,no-resolve
