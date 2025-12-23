@@ -43,7 +43,7 @@ mitm:
     - api.xiuxiu.meitu.com
 
 script-providers:
-  youtube-script:
+  youtube-response:
     url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js
     interval: 86400
   spotify-json:
@@ -118,7 +118,7 @@ http:
       require-body: true
       max-size: 3145728
       binary-body-mode: true
-      script: youtube-script
+      script: youtube-response
       argument: '{"lyricLang":"vi","captionLang":"vi","blockUpload":true,"blockImmersive":true,"blockShorts":false,"debug":false}'
 
     # Spotify Premium
