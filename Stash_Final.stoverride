@@ -3,6 +3,13 @@ desc: Crack Apps Premium + YouTube Premium cho iOS by Minwsun
 
 subscribe-url: https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/main/Stash_Final.stoverride
 
+# Force HTTP Engine for YouTube
+force-http-engine-hosts:
+  - "*.googlevideo.com"
+  - "youtubei.googleapis.com"
+  - "*.youtube.com"
+
+# Block QUIC to prevent bypass
 rules:
   - AND,((DOMAIN-SUFFIX,googlevideo.com),(NETWORK,UDP)),REJECT
   - AND,((DOMAIN,youtubei.googleapis.com),(NETWORK,UDP)),REJECT
