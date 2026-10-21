@@ -65,4 +65,3 @@ Tất cả module ghi rõ `EXPERIMENTAL`; module upstream nhắm Surge/Loon/Quan
 
 - [app2smile/rules tại revision ghim](https://github.com/app2smile/rules/tree/df6366a7024e0b3f0aa3510c5b791eea6f3cba89), [MIT license tại revision ghim](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md).
 - Nguồn module: [Bilibili](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/bilibili.sgmodule), [Tieba](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/tieba.sgmodule), [Qidian](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qidian.sgmodule), [Zhihu](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/zhihu.sgmodule), [QQ News](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qqnews.sgmodule).
-

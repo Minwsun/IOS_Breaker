@@ -49,5 +49,3 @@ Offline fixture tests cover snake_case and camelCase parsing, callback completio
 - [Qonversion Android SDK](https://github.com/qonversion/android-sdk)
 - [Adapty API object docs source](https://github.com/adaptyteam/adapty-docs/blob/main/src/content/docs/version-3.0/server-side-api-objects.mdx)
 - [Glassfy shutdown migration notice](https://adapty.io/blog/migrate-from-glassfy-to-adapty/)
-
-

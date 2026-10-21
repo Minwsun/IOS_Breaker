@@ -12,3 +12,11 @@ licenses/** -text
 assets/vendor/** -text
 assets/sub-store/** -text
 vendor/sources/** -text
+
+# Preserve upstream whitespace along with upstream bytes.
+js/** -whitespace
+rules/** -whitespace
+licenses/** -whitespace
+assets/vendor/** -whitespace
+assets/sub-store/** -whitespace
+vendor/sources/** -whitespace
