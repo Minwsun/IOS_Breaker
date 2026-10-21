@@ -1,0 +1,2919 @@
+{
+  "conflict_groups": [
+    {
+      "id": "spotify-overlap",
+      "members": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Spotify-Experimental.sgmodule",
+        "modules/Spotify-Upstream.sgmodule",
+        "modules/Spotify.sgmodule"
+      ],
+      "provider": "Spotify",
+      "reason": "Choose one Spotify module: their active rules overlap."
+    },
+    {
+      "global_global_pairs": [
+        [
+          "All_In_One.conf",
+          "All_In_One.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Dynamic.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Legacy.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Dynamic.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Legacy.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Legacy.sgmodule"
+        ]
+      ],
+      "global_handlers": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/RevenueCat-Dynamic.sgmodule",
+        "modules/RevenueCat-Legacy.sgmodule"
+      ],
+      "global_scoped_pairs": [
+        [
+          "All_In_One.conf",
+          "modules/Locket.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-1Blocker.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-APTV.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Anybox.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Darkroom.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Grow.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-HTTPBot.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Locket.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Noto.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-OffScreen.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Photomator.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Photoroom.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Pillow.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-ScannerPro.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-Unfold.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-VSCO.sgmodule"
+        ],
+        [
+          "All_In_One.conf",
+          "modules/RevenueCat-WidgetSmith.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/Locket.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-1Blocker.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-APTV.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Anybox.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Darkroom.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Grow.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-HTTPBot.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Locket.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Noto.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-OffScreen.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Photomator.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Photoroom.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Pillow.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-ScannerPro.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-Unfold.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-VSCO.sgmodule"
+        ],
+        [
+          "All_In_One.sgmodule",
+          "modules/RevenueCat-WidgetSmith.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/Locket.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-1Blocker.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-APTV.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Anybox.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Darkroom.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Grow.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-HTTPBot.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Locket.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Noto.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-OffScreen.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Photomator.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Photoroom.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Pillow.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-ScannerPro.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-Unfold.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-VSCO.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Dynamic.sgmodule",
+          "modules/RevenueCat-WidgetSmith.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/Locket.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-1Blocker.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-APTV.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Anybox.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Darkroom.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Grow.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-HTTPBot.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Locket.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Noto.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-OffScreen.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Photomator.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Photoroom.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Pillow.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-ScannerPro.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-Unfold.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-VSCO.sgmodule"
+        ],
+        [
+          "modules/RevenueCat-Legacy.sgmodule",
+          "modules/RevenueCat-WidgetSmith.sgmodule"
+        ]
+      ],
+      "id": "revenuecat-overlap",
+      "members": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Locket.sgmodule",
+        "modules/RevenueCat-1Blocker.sgmodule",
+        "modules/RevenueCat-APTV.sgmodule",
+        "modules/RevenueCat-Anybox.sgmodule",
+        "modules/RevenueCat-Darkroom.sgmodule",
+        "modules/RevenueCat-Dynamic.sgmodule",
+        "modules/RevenueCat-Grow.sgmodule",
+        "modules/RevenueCat-HTTPBot.sgmodule",
+        "modules/RevenueCat-Legacy.sgmodule",
+        "modules/RevenueCat-Locket.sgmodule",
+        "modules/RevenueCat-Noto.sgmodule",
+        "modules/RevenueCat-OffScreen.sgmodule",
+        "modules/RevenueCat-Photomator.sgmodule",
+        "modules/RevenueCat-Photoroom.sgmodule",
+        "modules/RevenueCat-Pillow.sgmodule",
+        "modules/RevenueCat-ScannerPro.sgmodule",
+        "modules/RevenueCat-Unfold.sgmodule",
+        "modules/RevenueCat-VSCO.sgmodule",
+        "modules/RevenueCat-WidgetSmith.sgmodule"
+      ],
+      "provider": "RevenueCat",
+      "reason": "Global RevenueCat handlers overlap each other and every app-scoped handler. App-scoped handlers overlap only when their User-Agent selectors match.",
+      "same_selector_pairs": [
+        {
+          "modules": [
+            "modules/Locket.sgmodule",
+            "modules/RevenueCat-Locket.sgmodule"
+          ],
+          "selectors": [
+            "locket"
+          ]
+        }
+      ],
+      "scoped_modules": [
+        "modules/Locket.sgmodule",
+        "modules/RevenueCat-1Blocker.sgmodule",
+        "modules/RevenueCat-APTV.sgmodule",
+        "modules/RevenueCat-Anybox.sgmodule",
+        "modules/RevenueCat-Darkroom.sgmodule",
+        "modules/RevenueCat-Grow.sgmodule",
+        "modules/RevenueCat-HTTPBot.sgmodule",
+        "modules/RevenueCat-Locket.sgmodule",
+        "modules/RevenueCat-Noto.sgmodule",
+        "modules/RevenueCat-OffScreen.sgmodule",
+        "modules/RevenueCat-Photomator.sgmodule",
+        "modules/RevenueCat-Photoroom.sgmodule",
+        "modules/RevenueCat-Pillow.sgmodule",
+        "modules/RevenueCat-ScannerPro.sgmodule",
+        "modules/RevenueCat-Unfold.sgmodule",
+        "modules/RevenueCat-VSCO.sgmodule",
+        "modules/RevenueCat-WidgetSmith.sgmodule"
+      ]
+    }
+  ],
+  "generated_by": "scripts/build_app_catalog.py",
+  "integration_groups": [
+    {
+      "id": "revenuecat-plus-spotify",
+      "members": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Locket.sgmodule",
+        "modules/RevenueCat-1Blocker.sgmodule",
+        "modules/RevenueCat-APTV.sgmodule",
+        "modules/RevenueCat-Anybox.sgmodule",
+        "modules/RevenueCat-Darkroom.sgmodule",
+        "modules/RevenueCat-Dynamic.sgmodule",
+        "modules/RevenueCat-Grow.sgmodule",
+        "modules/RevenueCat-HTTPBot.sgmodule",
+        "modules/RevenueCat-Legacy.sgmodule",
+        "modules/RevenueCat-Locket.sgmodule",
+        "modules/RevenueCat-Noto.sgmodule",
+        "modules/RevenueCat-OffScreen.sgmodule",
+        "modules/RevenueCat-Photomator.sgmodule",
+        "modules/RevenueCat-Photoroom.sgmodule",
+        "modules/RevenueCat-Pillow.sgmodule",
+        "modules/RevenueCat-ScannerPro.sgmodule",
+        "modules/RevenueCat-Unfold.sgmodule",
+        "modules/RevenueCat-VSCO.sgmodule",
+        "modules/RevenueCat-WidgetSmith.sgmodule",
+        "modules/Spotify-Experimental.sgmodule",
+        "modules/Spotify-Upstream.sgmodule",
+        "modules/Spotify.sgmodule"
+      ],
+      "name": "RevenueCat + Spotify",
+      "relationship": "These target different provider hostnames and are not an endpoint conflict with each other; choose only one module within each provider conflict group."
+    }
+  ],
+  "javascript_processors": [
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/AlightMotion.js",
+      "script_names": [
+        "AlightMotion"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Bilibili.sgmodule"
+      ],
+      "path": "js/app2smile-bilibili-json.js",
+      "script_names": [
+        "bili-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/bilibili-json.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Qidian.sgmodule"
+      ],
+      "path": "js/app2smile-qidian.js",
+      "script_names": [
+        "qidian-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-QQNews.sgmodule"
+      ],
+      "path": "js/app2smile-qqnews.js",
+      "script_names": [
+        "qqnews-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qq-news.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Tieba.sgmodule"
+      ],
+      "path": "js/app2smile-tieba-json.js",
+      "script_names": [
+        "tieba-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Zhihu.sgmodule"
+      ],
+      "path": "js/app2smile-zhihu.js",
+      "script_names": [
+        "zhihu-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/zhihu.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/BeautyPlus.sgmodule"
+      ],
+      "path": "js/BeautyPlus.js",
+      "script_names": [
+        "BeautyPlus"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Camera360.sgmodule"
+      ],
+      "path": "js/Camera360.js",
+      "script_names": [
+        "camera360"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/camScanner.js",
+      "script_names": [
+        "Camscanner"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/Crack.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/deleteHeader.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/itunes.sgmodule"
+      ],
+      "path": "js/iTunes.js",
+      "script_names": [
+        "iTunes"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/Kinemaster.js",
+      "script_names": [
+        "Kinemaster"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/lightroom.js",
+      "script_names": [
+        "Lightroom"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/Locket_DuyVinh09.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/MeiTuXiuXiu.js",
+      "script_names": [
+        "Meitu"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/nhaccuatui.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/PicsArt.js",
+      "script_names": [
+        "PicsArt"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Locket.sgmodule",
+        "modules/RevenueCat-1Blocker.sgmodule",
+        "modules/RevenueCat-APTV.sgmodule",
+        "modules/RevenueCat-Anybox.sgmodule",
+        "modules/RevenueCat-Darkroom.sgmodule",
+        "modules/RevenueCat-Dynamic.sgmodule",
+        "modules/RevenueCat-Grow.sgmodule",
+        "modules/RevenueCat-HTTPBot.sgmodule",
+        "modules/RevenueCat-Locket.sgmodule",
+        "modules/RevenueCat-Noto.sgmodule",
+        "modules/RevenueCat-OffScreen.sgmodule",
+        "modules/RevenueCat-Photomator.sgmodule",
+        "modules/RevenueCat-Photoroom.sgmodule",
+        "modules/RevenueCat-Pillow.sgmodule",
+        "modules/RevenueCat-ScannerPro.sgmodule",
+        "modules/RevenueCat-Unfold.sgmodule",
+        "modules/RevenueCat-VSCO.sgmodule",
+        "modules/RevenueCat-WidgetSmith.sgmodule"
+      ],
+      "path": "js/revenuecat-compatible.js",
+      "script_names": [
+        "deleteHeader",
+        "rc-1blocker-request",
+        "rc-1blocker-response",
+        "rc-anybox-request",
+        "rc-anybox-response",
+        "rc-aptv-request",
+        "rc-aptv-response",
+        "rc-darkroom-request",
+        "rc-darkroom-response",
+        "rc-dynamic-request",
+        "rc-dynamic-response",
+        "rc-grow-request",
+        "rc-grow-response",
+        "rc-httpbot-request",
+        "rc-httpbot-response",
+        "rc-locket-request",
+        "rc-locket-response",
+        "rc-noto-request",
+        "rc-noto-response",
+        "rc-offscreen-request",
+        "rc-offscreen-response",
+        "rc-photomator-request",
+        "rc-photomator-response",
+        "rc-photoroom-request",
+        "rc-photoroom-response",
+        "rc-pillow-request",
+        "rc-pillow-response",
+        "rc-scannerpro-request",
+        "rc-scannerpro-response",
+        "rc-unfold-request",
+        "rc-unfold-response",
+        "rc-vsco-request",
+        "rc-vsco-response",
+        "rc-widgetsmith-request",
+        "rc-widgetsmith-response",
+        "revenuecat"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/RevenueCat-Legacy.sgmodule"
+      ],
+      "path": "js/revenuecat.js",
+      "script_names": [
+        "RevenueCatVip"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/RevenueCat_Universal.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/snow.sgmodule"
+      ],
+      "path": "js/Snow.js",
+      "script_names": [
+        "Snow",
+        "snow"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/SODA.sgmodule"
+      ],
+      "path": "js/Soda.js",
+      "script_names": [
+        "soda"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/SoundCloudGoPlus.js",
+      "script_names": [
+        "SoundCloudGo+"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Spotify-Experimental.sgmodule"
+      ],
+      "path": "js/spotify-capabilities-safe.js",
+      "script_names": [
+        "spotify-json2"
+      ],
+      "source": null,
+      "status": "experimental-unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Spotify.sgmodule"
+      ],
+      "path": "js/spotify-compatible.js",
+      "script_names": [
+        "spotify-proto"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule",
+        "modules/Spotify-Experimental.sgmodule",
+        "modules/Spotify-Upstream.sgmodule",
+        "modules/Spotify.sgmodule"
+      ],
+      "path": "js/spotify-json.js",
+      "script_names": [
+        "spotify-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+      "status": "experimental-unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [],
+      "path": "js/spotify-json2.js",
+      "script_names": [],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json2.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/Spotify-Experimental.sgmodule"
+      ],
+      "path": "js/spotify-proto-test.js",
+      "script_names": [
+        "spotify-proto"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto-test.js",
+      "status": "experimental-unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/Spotify-Upstream.sgmodule"
+      ],
+      "path": "js/spotify-proto.js",
+      "script_names": [
+        "spotify-proto"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/sub-store-0.selfhost.js",
+      "script_names": [
+        "Sub-Store Simple"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/sub-store-1.selfhost.js",
+      "script_names": [
+        "Sub-Store Core"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/TrueCaller.js",
+      "script_names": [
+        "Truecaller"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/VSCO.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/WinkVipCrack.js",
+      "script_names": [
+        "Wink"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "All_In_One.conf",
+        "All_In_One.sgmodule"
+      ],
+      "path": "js/youtube.response.js",
+      "script_names": [
+        "youtube.request",
+        "youtube.response"
+      ],
+      "source": null,
+      "status": "unverified"
+    }
+  ],
+  "modules": [
+    {
+      "description": "Self-hosted assets. Third-party notices: docs/THIRD_PARTY.md. Device testing required.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*.googlevideo.com",
+        "*spclient.spotify.com",
+        "-redirector*.googlevideo.com",
+        "ap*.intsig.net",
+        "api-account.kinemasters.com",
+        "api-mobile.soundcloud.com",
+        "api-sub.meitu.com",
+        "api.mr.pixocial.com",
+        "api.picsart.com",
+        "api.rc-backup.com",
+        "api.revenuecat.com",
+        "api.xiuxiu.meitu.com",
+        "buy.itunes.apple.com",
+        "h5.xiuxiu.meitu.com",
+        "intsig.net",
+        "newbeee-api.beautyplus.com",
+        "photos.adobe.io",
+        "premium*.truecaller.com",
+        "s.youtube.com",
+        "spclient.wg.spotify.com",
+        "spotify.com",
+        "sub.store",
+        "truecaller.com",
+        "us-central1-alight-creative.cloudfunctions.net",
+        "user-snow-api.snow.me",
+        "www.youtube.com",
+        "xiuxiu.meitu.com",
+        "youtubei.googleapis.com"
+      ],
+      "module": "All_In_One.conf",
+      "name": "IOS Breaker All In One",
+      "notes": [
+        "RevenueCat mapping discovery (experimental; signed responses pass through)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/sub\\.store\\/((download)|api\\/(preview|sync|(utils\\/node-info)))",
+          "license": null,
+          "local_script": "js/sub-store-1.selfhost.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Core",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/sub-store-1.selfhost.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/sub\\.store",
+          "license": null,
+          "local_script": "js/sub-store-0.selfhost.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Simple",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/sub-store-0.selfhost.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "",
+          "license": "AGPL-3.0",
+          "local_script": "js/vendor/sub-store/cron-sync-artifacts.min.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Sync",
+          "phase": "cron",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/vendor/sub-store/cron-sync-artifacts.min.js",
+          "source": "https://github.com/sub-store-org/Sub-Store/releases/download/2.42.6/cron-sync-artifacts.min.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/youtubei\\.googleapis\\.com\\/youtubei\\/v1\\/(browse|next|player|reel\\/reel_watch_sequence|get_watch)",
+          "license": null,
+          "local_script": "js/youtube.response.js",
+          "mitm_hosts": [
+            "youtubei.googleapis.com"
+          ],
+          "name": "youtube.request",
+          "phase": "http-request",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/youtube.response.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/youtubei\\.googleapis\\.com\\/(youtubei\\/v1\\/(browse|next|player|search|reel\\/reel_watch_sequence|guide|account\\/get_setting|get_watch))(\\?(.*))?$",
+          "license": null,
+          "local_script": "js/youtube.response.js",
+          "mitm_hosts": [
+            "youtubei.googleapis.com"
+          ],
+          "name": "youtube.response",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/youtube.response.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/spotify-compatible.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https://api-mobile.soundcloud.com/configuration/ios",
+          "license": null,
+          "local_script": "js/SoundCloudGoPlus.js",
+          "mitm_hosts": [
+            "api-mobile.soundcloud.com"
+          ],
+          "name": "SoundCloudGo+",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/SoundCloudGoPlus.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/us-central1-alight-creative\\.cloudfunctions\\.net\\/getAccountStatusAndLicenses",
+          "license": null,
+          "local_script": "js/AlightMotion.js",
+          "mitm_hosts": [
+            "us-central1-alight-creative.cloudfunctions.net"
+          ],
+          "name": "AlightMotion",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/AlightMotion.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.picsart\\.com\\/gw-v2\\/shop\\/subscription\\/apple\\/purchases",
+          "license": null,
+          "local_script": "js/PicsArt.js",
+          "mitm_hosts": [
+            "api.picsart.com"
+          ],
+          "name": "PicsArt",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/PicsArt.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/api-sub\\.meitu\\.com\\/v2\\/user\\/vip_info_by_group\\.json",
+          "license": null,
+          "local_script": "js/WinkVipCrack.js",
+          "mitm_hosts": [
+            "api-sub.meitu.com"
+          ],
+          "name": "Wink",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/WinkVipCrack.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https://premium-(.+)\\.truecaller\\.com/v\\d/(subscriptions|products\\/apple)",
+          "license": null,
+          "local_script": "js/TrueCaller.js",
+          "mitm_hosts": [
+            "truecaller.com"
+          ],
+          "name": "Truecaller",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/TrueCaller.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/photos\\.adobe\\.io\\/v\\d\\/accounts",
+          "license": null,
+          "local_script": "js/lightroom.js",
+          "mitm_hosts": [
+            "photos.adobe.io"
+          ],
+          "name": "Lightroom",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/lightroom.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api-account\\.kinemasters\\.com\\/v\\d\\/user\\/subscribe$",
+          "license": null,
+          "local_script": "js/Kinemaster.js",
+          "mitm_hosts": [
+            "api-account.kinemasters.com"
+          ],
+          "name": "Kinemaster",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Kinemaster.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api|api-cs.*)\\.intsig\\.net\\/purchase\\/cs\\/query_prop",
+          "license": null,
+          "local_script": "js/camScanner.js",
+          "mitm_hosts": [
+            "intsig.net"
+          ],
+          "name": "Camscanner",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/camScanner.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api\\.mr\\.pixocial\\.com\\/v1\\/manual_unlock|newbeee-api\\.beautyplus\\.com\\/api\\/v1\\/asset\\/balance)",
+          "license": null,
+          "local_script": "js/BeautyPlus.js",
+          "mitm_hosts": [
+            "api.mr.pixocial.com",
+            "newbeee-api.beautyplus.com"
+          ],
+          "name": "BeautyPlus",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/BeautyPlus.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "revenuecat",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "deleteHeader",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt$",
+          "license": null,
+          "local_script": "js/iTunes.js",
+          "mitm_hosts": [
+            "buy.itunes.apple.com"
+          ],
+          "name": "iTunes",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/iTunes.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/user-snow-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Snow.js",
+          "mitm_hosts": [
+            "user-snow-api.snow.me"
+          ],
+          "name": "Snow",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Snow.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/(h5|api)\\.xiuxiu\\.meitu\\.com\\/v\\d\\/(h\\d\\/vip|vip|user)\\/",
+          "license": null,
+          "local_script": "js/MeiTuXiuXiu.js",
+          "mitm_hosts": [
+            "xiuxiu.meitu.com"
+          ],
+          "name": "Meitu",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/MeiTuXiuXiu.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Self-hosted assets. Third-party notices: docs/THIRD_PARTY.md. Device testing required.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*.googlevideo.com",
+        "*spclient.spotify.com",
+        "-redirector*.googlevideo.com",
+        "ap*.intsig.net",
+        "api-account.kinemasters.com",
+        "api-mobile.soundcloud.com",
+        "api-sub.meitu.com",
+        "api.mr.pixocial.com",
+        "api.picsart.com",
+        "api.rc-backup.com",
+        "api.revenuecat.com",
+        "api.xiuxiu.meitu.com",
+        "buy.itunes.apple.com",
+        "h5.xiuxiu.meitu.com",
+        "intsig.net",
+        "newbeee-api.beautyplus.com",
+        "photos.adobe.io",
+        "premium*.truecaller.com",
+        "s.youtube.com",
+        "spclient.wg.spotify.com",
+        "spotify.com",
+        "sub.store",
+        "truecaller.com",
+        "us-central1-alight-creative.cloudfunctions.net",
+        "user-snow-api.snow.me",
+        "www.youtube.com",
+        "xiuxiu.meitu.com",
+        "youtubei.googleapis.com"
+      ],
+      "module": "All_In_One.sgmodule",
+      "name": "IOS Breaker All In One",
+      "notes": [
+        "RevenueCat mapping discovery (experimental; signed responses pass through)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/sub\\.store\\/((download)|api\\/(preview|sync|(utils\\/node-info)))",
+          "license": null,
+          "local_script": "js/sub-store-1.selfhost.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Core",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/sub-store-1.selfhost.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/sub\\.store",
+          "license": null,
+          "local_script": "js/sub-store-0.selfhost.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Simple",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/sub-store-0.selfhost.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "",
+          "license": "AGPL-3.0",
+          "local_script": "js/vendor/sub-store/cron-sync-artifacts.min.js",
+          "mitm_hosts": [
+            "sub.store"
+          ],
+          "name": "Sub-Store Sync",
+          "phase": "cron",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/vendor/sub-store/cron-sync-artifacts.min.js",
+          "source": "https://github.com/sub-store-org/Sub-Store/releases/download/2.42.6/cron-sync-artifacts.min.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/youtubei\\.googleapis\\.com\\/youtubei\\/v1\\/(browse|next|player|reel\\/reel_watch_sequence|get_watch)",
+          "license": null,
+          "local_script": "js/youtube.response.js",
+          "mitm_hosts": [
+            "youtubei.googleapis.com"
+          ],
+          "name": "youtube.request",
+          "phase": "http-request",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/youtube.response.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/youtubei\\.googleapis\\.com\\/(youtubei\\/v1\\/(browse|next|player|search|reel\\/reel_watch_sequence|guide|account\\/get_setting|get_watch))(\\?(.*))?$",
+          "license": null,
+          "local_script": "js/youtube.response.js",
+          "mitm_hosts": [
+            "youtubei.googleapis.com"
+          ],
+          "name": "youtube.response",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/youtube.response.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/spotify-compatible.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https://api-mobile.soundcloud.com/configuration/ios",
+          "license": null,
+          "local_script": "js/SoundCloudGoPlus.js",
+          "mitm_hosts": [
+            "api-mobile.soundcloud.com"
+          ],
+          "name": "SoundCloudGo+",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/SoundCloudGoPlus.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/us-central1-alight-creative\\.cloudfunctions\\.net\\/getAccountStatusAndLicenses",
+          "license": null,
+          "local_script": "js/AlightMotion.js",
+          "mitm_hosts": [
+            "us-central1-alight-creative.cloudfunctions.net"
+          ],
+          "name": "AlightMotion",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/AlightMotion.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.picsart\\.com\\/gw-v2\\/shop\\/subscription\\/apple\\/purchases",
+          "license": null,
+          "local_script": "js/PicsArt.js",
+          "mitm_hosts": [
+            "api.picsart.com"
+          ],
+          "name": "PicsArt",
+          "phase": "http-request",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/PicsArt.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/api-sub\\.meitu\\.com\\/v2\\/user\\/vip_info_by_group\\.json",
+          "license": null,
+          "local_script": "js/WinkVipCrack.js",
+          "mitm_hosts": [
+            "api-sub.meitu.com"
+          ],
+          "name": "Wink",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/WinkVipCrack.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https://premium-(.+)\\.truecaller\\.com/v\\d/(subscriptions|products\\/apple)",
+          "license": null,
+          "local_script": "js/TrueCaller.js",
+          "mitm_hosts": [
+            "truecaller.com"
+          ],
+          "name": "Truecaller",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/TrueCaller.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/photos\\.adobe\\.io\\/v\\d\\/accounts",
+          "license": null,
+          "local_script": "js/lightroom.js",
+          "mitm_hosts": [
+            "photos.adobe.io"
+          ],
+          "name": "Lightroom",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/lightroom.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api-account\\.kinemasters\\.com\\/v\\d\\/user\\/subscribe$",
+          "license": null,
+          "local_script": "js/Kinemaster.js",
+          "mitm_hosts": [
+            "api-account.kinemasters.com"
+          ],
+          "name": "Kinemaster",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Kinemaster.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api|api-cs.*)\\.intsig\\.net\\/purchase\\/cs\\/query_prop",
+          "license": null,
+          "local_script": "js/camScanner.js",
+          "mitm_hosts": [
+            "intsig.net"
+          ],
+          "name": "Camscanner",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/camScanner.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api\\.mr\\.pixocial\\.com\\/v1\\/manual_unlock|newbeee-api\\.beautyplus\\.com\\/api\\/v1\\/asset\\/balance)",
+          "license": null,
+          "local_script": "js/BeautyPlus.js",
+          "mitm_hosts": [
+            "api.mr.pixocial.com",
+            "newbeee-api.beautyplus.com"
+          ],
+          "name": "BeautyPlus",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/BeautyPlus.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "revenuecat",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "deleteHeader",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt$",
+          "license": null,
+          "local_script": "js/iTunes.js",
+          "mitm_hosts": [
+            "buy.itunes.apple.com"
+          ],
+          "name": "iTunes",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/iTunes.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/user-snow-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Snow.js",
+          "mitm_hosts": [
+            "user-snow-api.snow.me"
+          ],
+          "name": "Snow",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Snow.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/(h5|api)\\.xiuxiu\\.meitu\\.com\\/v\\d\\/(h\\d\\/vip|vip|user)\\/",
+          "license": null,
+          "local_script": "js/MeiTuXiuXiu.js",
+          "mitm_hosts": [
+            "xiuxiu.meitu.com"
+          ],
+          "name": "Meitu",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/MeiTuXiuXiu.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "app.bilibili.com"
+      ],
+      "module": "modules/App2Smile-Bilibili.sgmodule",
+      "name": "App2Smile Bilibili JSON (experimental)",
+      "notes": [
+        "!name=App2Smile Bilibili JSON (experimental)",
+        "!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+        "The upstream Proto transformer is intentionally omitted pending third-party license review."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/app\\.bilibili\\.com\\/x\\/(v2\\/(splash\\/(list|show)|feed\\/index\\?)|resource\\/show\\/tab\\/v2)",
+          "license": "MIT",
+          "local_script": "js/app2smile-bilibili-json.js",
+          "mitm_hosts": [
+            "app.bilibili.com"
+          ],
+          "name": "bili-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-bilibili-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/bilibili-json.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified; upstream notes proxy must stay enabled while using Qidian on Quantumult X.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "magev6.if.qidian.com"
+      ],
+      "module": "modules/App2Smile-Qidian.sgmodule",
+      "name": "App2Smile Qidian (experimental)",
+      "notes": [
+        "!name=App2Smile Qidian (experimental)",
+        "!desc=EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified; upstream notes proxy must stay enabled while using Qidian on Quantumult X."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/magev6\\.if\\.qidian\\.com\\/argus\\/api\\/(v4\\/client\\/getsplashscreen|v2\\/(deeplink\\/geturl|dailyrecommend\\/getdailyrecommend)|v1\\/(client\\/getconf$|bookshelf\\/getHoverAdv|adv\\/getadvlistbatch\\?positions=iOS_tab))",
+          "license": "MIT",
+          "local_script": "js/app2smile-qidian.js",
+          "mitm_hosts": [
+            "magev6.if.qidian.com"
+          ],
+          "name": "qidian-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-qidian.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: splash removal may rely on fresh app install/cache state; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "news.ssp.qq.com",
+        "r.inews.qq.com"
+      ],
+      "module": "modules/App2Smile-QQNews.sgmodule",
+      "name": "App2Smile QQ News (experimental)",
+      "notes": [
+        "!name=App2Smile QQ News (experimental)",
+        "!desc=EXPERIMENTAL: splash removal may rely on fresh app install/cache state; Shadowrocket compatibility and current app behavior are unverified."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(news\\.ssp\\.qq\\.com\\/app|r\\.inews\\.qq\\.com\\/(get(QQNewsUnreadList|TagFeedList)|gw\\/page\\/(channel_feed|event_detail)|news_feed\\/hot_module_list))",
+          "license": "MIT",
+          "local_script": "js/app2smile-qqnews.js",
+          "mitm_hosts": [
+            "news.ssp.qq.com",
+            "r.inews.qq.com"
+          ],
+          "name": "qqnews-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-qqnews.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qq-news.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "baidu.com",
+        "c.tieba",
+        "c.tieba.baidu.com",
+        "tiebac.baidu.com"
+      ],
+      "module": "modules/App2Smile-Tieba.sgmodule",
+      "name": "App2Smile Tieba JSON (experimental)",
+      "notes": [
+        "!name=App2Smile Tieba JSON (experimental)",
+        "!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+        "The upstream Proto transformer is intentionally omitted pending third-party license review."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/(tiebac|c\\.tieba)\\.baidu\\.com\\/(c\\/(s\\/sync|f\\/(ad\\/getSplashAd|frs\\/(page|threadlist|generalTabList)|pb\\/(pic)?page|excellent\\/personalized))$|tiebaads\\/commonbatch\\?)",
+          "license": "MIT",
+          "local_script": "js/app2smile-tieba-json.js",
+          "mitm_hosts": [
+            "baidu.com",
+            "c.tieba"
+          ],
+          "name": "tieba-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-tieba-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.zhihu.com",
+        "appcloud2.zhihu.com",
+        "www.zhihu.com"
+      ],
+      "module": "modules/App2Smile-Zhihu.sgmodule",
+      "name": "App2Smile Zhihu (experimental)",
+      "notes": [
+        "!name=App2Smile Zhihu (experimental)",
+        "!desc=EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(appcloud2\\.zhihu\\.com\\/v3\\/config$|www\\.zhihu\\.com\\/api\\/v4\\/(answers\\/\\d+\\/recommendations|articles\\/\\d+\\/recommendation)|api\\.zhihu\\.com\\/(topstory\\/recommend|commercial_api\\/(real_time_launch_v2|app_float_layer$)|questions\\/\\d+\\/feeds\\?|v4\\/questions\\/\\d+\\/answers\\?))",
+          "license": "MIT",
+          "local_script": "js/app2smile-zhihu.js",
+          "mitm_hosts": [
+            "api.zhihu.com",
+            "appcloud2.zhihu.com",
+            "www.zhihu.com"
+          ],
+          "name": "zhihu-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-zhihu.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/zhihu.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "BeautyPlus Premium Unlock",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.mr.pixocial.com",
+        "newbeee-api.beautyplus.com"
+      ],
+      "module": "modules/BeautyPlus.sgmodule",
+      "name": "BeautyPlus",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api\\.mr\\.pixocial\\.com\\/v1\\/manual_unlock|newbeee-api\\.beautyplus\\.com\\/api\\/v1\\/asset\\/balance)",
+          "license": null,
+          "local_script": "js/BeautyPlus.js",
+          "mitm_hosts": [
+            "api.mr.pixocial.com",
+            "newbeee-api.beautyplus.com"
+          ],
+          "name": "BeautyPlus",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/BeautyPlus.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "Tep Lenh Crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*.camera360.com",
+        "camera360.com"
+      ],
+      "module": "modules/Camera360.sgmodule",
+      "name": "Camera360 pro",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/.*\\.camera360\\.com\\/(api\\/(order\\/purchase|iap\\/check-receipt)|v\\d\\/operational-positions)",
+          "license": null,
+          "local_script": "js/Camera360.js",
+          "mitm_hosts": [
+            "camera360.com"
+          ],
+          "name": "camera360",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Camera360.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "iTunes",
+      "device_tested": false,
+      "mitm_hosts": [
+        "buy.itunes.apple.com"
+      ],
+      "module": "modules/itunes.sgmodule",
+      "name": "iTunes",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt$",
+          "license": null,
+          "local_script": "js/iTunes.js",
+          "mitm_hosts": [
+            "buy.itunes.apple.com"
+          ],
+          "name": "iTunes",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/iTunes.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/Locket.sgmodule",
+      "name": "Locket - RevenueCat experimental",
+      "notes": [
+        "!name=Locket - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-locket-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Locket"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-locket-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Locket"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-1Blocker.sgmodule",
+      "name": "1Blocker - RevenueCat experimental",
+      "notes": [
+        "!name=1Blocker - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-1blocker-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "1Blocker|BlockerX"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-1blocker-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "1Blocker|BlockerX"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Anybox.sgmodule",
+      "name": "Anybox - RevenueCat experimental",
+      "notes": [
+        "!name=Anybox - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-anybox-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Anybox"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-anybox-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Anybox"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-APTV.sgmodule",
+      "name": "APTV - RevenueCat experimental",
+      "notes": [
+        "!name=APTV - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-aptv-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "APTV"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-aptv-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "APTV"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Darkroom.sgmodule",
+      "name": "Darkroom - RevenueCat experimental",
+      "notes": [
+        "!name=Darkroom - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-darkroom-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Darkroom"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-darkroom-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Darkroom"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Dynamic.sgmodule",
+      "name": "All RevenueCat apps - RevenueCat experimental",
+      "notes": [
+        "!name=All RevenueCat apps - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-dynamic-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-dynamic-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Grow.sgmodule",
+      "name": "Grow - RevenueCat experimental",
+      "notes": [
+        "!name=Grow - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-grow-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Grow"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-grow-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Grow"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-HTTPBot.sgmodule",
+      "name": "HTTPBot - RevenueCat experimental",
+      "notes": [
+        "!name=HTTPBot - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-httpbot-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "HTTPBot"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-httpbot-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "HTTPBot"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Use instead of the All-In-One RevenueCat response handler; never enable both.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Legacy.sgmodule",
+      "name": "RevenueCat Legacy (experimental)",
+      "notes": [
+        "!name=RevenueCat Legacy (experimental)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/.+\\/(receipts$|subscribers\\/[^/]+$)",
+          "license": null,
+          "local_script": "js/revenuecat.js",
+          "mitm_hosts": [],
+          "name": "RevenueCatVip",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Locket.sgmodule",
+      "name": "Locket - RevenueCat experimental",
+      "notes": [
+        "!name=Locket - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-locket-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Locket"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-locket-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Locket"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Noto.sgmodule",
+      "name": "Noto - RevenueCat experimental",
+      "notes": [
+        "!name=Noto - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-noto-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Noto"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-noto-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Noto"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-OffScreen.sgmodule",
+      "name": "OffScreen - RevenueCat experimental",
+      "notes": [
+        "!name=OffScreen - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-offscreen-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "OffScreen"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-offscreen-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "OffScreen"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Photomator.sgmodule",
+      "name": "Photomator - RevenueCat experimental",
+      "notes": [
+        "!name=Photomator - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-photomator-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Photomator"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-photomator-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Photomator"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Photoroom.sgmodule",
+      "name": "Photoroom - RevenueCat experimental",
+      "notes": [
+        "!name=Photoroom - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-photoroom-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "PhotoRoom"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-photoroom-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "PhotoRoom"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Pillow.sgmodule",
+      "name": "Pillow - RevenueCat experimental",
+      "notes": [
+        "!name=Pillow - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-pillow-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Pillow"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-pillow-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Pillow"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-ScannerPro.sgmodule",
+      "name": "Scanner Pro - RevenueCat experimental",
+      "notes": [
+        "!name=Scanner Pro - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-scannerpro-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "ScannerPro"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-scannerpro-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "ScannerPro"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Unfold.sgmodule",
+      "name": "Unfold - RevenueCat experimental",
+      "notes": [
+        "!name=Unfold - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-unfold-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Unfold"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-unfold-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "Unfold"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-VSCO.sgmodule",
+      "name": "VSCO - RevenueCat experimental",
+      "notes": [
+        "!name=VSCO - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-vsco-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "VSCO"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-vsco-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "VSCO"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Mapping discovery; fixture-tested only. Signed responses pass through. Never combine with another RevenueCat processor.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-WidgetSmith.sgmodule",
+      "name": "WidgetSmith - RevenueCat experimental",
+      "notes": [
+        "!name=WidgetSmith - RevenueCat experimental"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-widgetsmith-request",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "WidgetSmith"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/v1\\/(receipts|subscribers\\/[^/?#]+)\\/?(\\?[^#]*)?$",
+          "license": null,
+          "local_script": "js/revenuecat-compatible.js",
+          "mitm_hosts": [],
+          "name": "rc-widgetsmith-response",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat-compatible.js",
+          "source": null,
+          "user_agent": "WidgetSmith"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "snow crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "user-snow-api.snow.me"
+      ],
+      "module": "modules/snow.sgmodule",
+      "name": "snow",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/user-snow-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Snow.js",
+          "mitm_hosts": [
+            "user-snow-api.snow.me"
+          ],
+          "name": "snow",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Snow.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "SOSA crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "purchase-soda-api.snow.me"
+      ],
+      "module": "modules/SODA.sgmodule",
+      "name": "SODA",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/purchase-soda-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Soda.js",
+          "mitm_hosts": [
+            "purchase-soda-api.snow.me"
+          ],
+          "name": "soda",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Soda.js",
+          "source": null,
+          "user_agent": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify-Experimental.sgmodule",
+      "name": "SpotifyTest",
+      "notes": [
+        "Source app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT); local URL adaptation.",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/device-capabilities\\/v1\\/capabilities",
+          "license": "MIT",
+          "local_script": "js/spotify-capabilities-safe.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json2",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-capabilities-safe.js",
+          "source": "app2smile/rules",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)$",
+          "license": "MIT",
+          "local_script": "js/spotify-proto-test.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-proto-test.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto-test.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify-Upstream.sgmodule",
+      "name": "Spotify Upstream (2026-02-25)",
+      "notes": [
+        "Source app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT); local URL adaptation.",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)$",
+          "license": "MIT",
+          "local_script": "js/spotify-proto.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-proto.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto.js",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Local wire-preserving response patch; device validation required. No offline/HiFi promise.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "*spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify.sgmodule",
+      "name": "Spotify Compatibility (experimental)",
+      "notes": [
+        "Module pattern source: app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module.",
+        "!name=Spotify Compatibility (experimental)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+          "user_agent": null
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)(\\?[^#]*)?$",
+          "license": "MIT",
+          "local_script": "js/spotify-compatible.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-compatible.js",
+          "source": "app2smile/rules",
+          "user_agent": null
+        }
+      ],
+      "status": "experimental-unverified"
+    }
+  ],
+  "provenance_references": [
+    "vendor/apps-lock.json",
+    "docs/THIRD_PARTY.md",
+    "docs/validation.md"
+  ],
+  "schema_version": 1,
+  "validation_policy": "No current device-test evidence was found; all entries are marked unverified."
+}

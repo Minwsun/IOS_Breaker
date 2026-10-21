@@ -1,0 +1,68 @@
+# Nghiên cứu nguồn script iOS có thể self-host
+
+Cập nhật 21-10-2026. Chỉ xem trang và mã nguồn công khai; không tải/chạy script, không gọi API của ứng dụng. Mục tiêu là tìm nguồn có file cấu hình và script thật, giấy phép rõ, phù hợp để lưu bản sao trong repo. “Self-host” ở đây là sao chép một revision đã ghim, giữ attribution/license, rồi đổi `script-path` sang URL của repo này.
+
+## Kết quả nhanh
+
+Nguồn khả thi nhất là [app2smile/rules](https://github.com/app2smile/rules): GitHub ghi MIT, có các module thực tế cho Qidian, Spotify, Bilibili, Tieba và YouTube. Với phạm vi thêm app, ba ứng viên mới ít trùng tính năng là **Bilibili, Tieba, Qidian**. Spotify và YouTube đã có script trong repo hiện tại; không nên thêm transformer trùng lặp trước khi đối chiếu.
+
+Các module app2smile hướng tới Surge/Loon/Quantumult X và ghi yêu cầu iOS 15, nhưng không tuyên bố hỗ trợ Shadowrocket. Một số dùng Protobuf và `binary-body-mode`; cần xác nhận hỗ trợ engine của Shadowrocket trước khi đưa vào cấu hình.
+
+## Ứng viên có file thật và URL nguồn cụ thể
+
+| App / độ trùng với repo | Module và file upstream | Hành vi/runtime xác nhận được | License, độ phù hợp và giới hạn |
+|---|---|---|---|
+| **Bilibili** — local đã có `rules/Media/BiliBili.list`, nhưng `All_In_One.sgmodule` chưa cài transformer JSON/Proto cho app | [module/bilibili.sgmodule](https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili.sgmodule), [js/bilibili-json.js](https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js), [js/bilibili-proto.js](https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js), [module/bilibili-qx.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf) | Bỏ quảng cáo splash/feed/tab động và một số gợi ý video. JSON qua `app.bilibili.com`; Protobuf qua `grpc.biliapi.net`/`app.bilibili.com`. Cần MITM và body nhị phân cho Proto. Module ghi iOS ≥15. Script JSON ghi ngày 2023-10-22; Proto 2024-11-02. | Repo khai báo MIT. Ứng viên bổ sung tốt vì hiện chỉ có rule định tuyến. Ngày script cũ là dấu hiệu cần thử với app hiện tại. Chưa xác minh Shadowrocket hay có test upstream. |
+| **Baidu Tieba** — chưa có script Tieba hoặc rule riêng trong repo | [module/tieba.sgmodule](https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule), [js/tieba-json.js](https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js), [js/tieba-proto.js](https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js), [rule/tieba-ad.list](https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.list), [module/tieba-qx.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf) | Splash, quảng cáo trong feed/danh sách bài, nội dung liên quan trong trang chi tiết, chế độ xem ảnh và icon nổi. JSON + Proto tại `tiebac.baidu.com`/`c.tieba.baidu.com`, cần MITM/body nhị phân và ruleset phụ. Có argument `per_filter_video`. Bản JSON ghi 2025-08-28, Proto 2025-11-18. | MIT khai báo ở cấp repo. Ứng viên mới rõ ràng. Issue [#247](https://github.com/app2smile/rules/issues/247) cho thấy tác giả sửa hồi quy Tieba ngày 2025-11-18. Cần copy cả rule phụ trợ nếu dùng module đầy đủ. |
+| **Qidian / 起点阅读** — chưa có trong danh sách app local | [module/qidian.sgmodule](https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.sgmodule), [js/qidian.js](https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js), [module/qidian.conf](https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf) | Sửa JSON cho splash, deeplink khởi động, daily recommendation, quảng cáo tab và cấu hình/icon; host `magev6.if.qidian.com`. Dùng `$request`, `$response`, `$done`, `$notification`. Module bật MITM. Upstream ghi Quantumult X cần luôn bật proxy khi dùng app do khác biệt TCP/HTTP. | MIT khai báo ở cấp repo. Ứng viên mới ít phức tạp hơn Proto. Script có thông báo một số schema thiếu, nhưng `JSON.parse` không có catch. Cần xác nhận `$notification` và cú pháp module trên Shadowrocket. |
+| **Spotify** — repo đã có `js/spotify-json.js`, `js/spotify-proto.js` và rules | [module/spotify.module](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module), [js/spotify-json.js](https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js), [js/spotify-proto.js](https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js), [js/spotify-lyric.js](https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js) | Module ghi ngày 2025-06-27; nêu bỏ quảng cáo/Shuffle và sửa hiển thị nghệ sĩ/album. Ghi iOS ≥15 và chất lượng phải thấp hơn “Very High”. JSON request + Proto response cho spclient. Dịch lời bài hát là tính năng riêng, cần người dùng tự cung cấp Baidu app ID và secret. | MIT khai báo. Không thêm đè lên transformer hiện tại. Script dịch lời không dùng được out-of-box nếu thiếu API credentials; không lưu credentials trong repo. |
+| **YouTube** — repo đã có `js/youtube.response.js` và script trong module tổng | [module/youtube.sgmodule](https://raw.githubusercontent.com/app2smile/rules/master/module/youtube.sgmodule), [js/youtube.js](https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js), [DualSubs/YouTube](https://github.com/DualSubs/YouTube) | app2smile chỉ mô tả bỏ quảng cáo feed/trang đề xuất ở browse/next, không bỏ quảng cáo pre-roll. Dùng response Proto nhị phân với `youtubei.googleapis.com`, MITM và giới hạn 2 MiB. `youtube.js` chứa decoder `TextDecoder`. DualSubs giải quyết phụ đề song ngữ (Apache-2.0), có `src/`, `modules/`, `scripts/`, `tests/` và quy trình Node 24/Rollup; README nói phần trang/preferences vẫn được phục vụ từ DualSubs.github.io. | app2smile MIT; DualSubs Apache-2.0. Tính năng trùng khá nhiều với YouTube hiện có. Không tìm ra URL raw chính xác của artifact build DualSubs trong lần kiểm tra này nên không nêu một đường dẫn suy đoán. |
+
+## Nguồn không nên vendor theo thông tin hiện có
+
+- [app2smile/rules](https://github.com/app2smile/rules) khai báo MIT và có `LICENSE.md`. Trước khi sao chép, giữ copyright/license và rà từng file xem có mã/thư viện bên thứ ba với điều kiện riêng không. License cấp repo không tự động giải quyết quyền của nội dung nhúng.
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) khai báo GPL-2.0. README còn ghi cấm tự truyền tải/tái đăng các resource công khai và giới hạn mục đích học tập/nghiên cứu. Không chọn làm nguồn vendor công khai trước khi làm rõ điều kiện này.
+- [chxm1023/Rewrite](https://github.com/chxm1023/Rewrite) ở cây repo công khai đã xem chỉ có `README.md`, không có file script để mirror. README là cổng dẫn tới các gói app đã sửa; tuyên bố hạn chế đăng lại/bán và yêu cầu xóa trong 24 giờ, repo không nêu license. Không dùng làm nguồn mã self-host hay lấy endpoint từ gói nhị phân.
+- [DualSubs/YouTube](https://github.com/DualSubs/YouTube) khai báo Apache-2.0; tài liệu build/test khá rõ. Tuy nhiên cần chọn và xác minh artifact/commit cụ thể trước khi vendor; giao diện/preferences còn tham chiếu website upstream.
+
+## Trạng thái triển khai và kiểm chứng
+
+Đã self-host năm module JSON-only tại revision ghim; inventory ghi URL nguồn, revision và SHA-256 cho cả bản lưu lẫn module đã chỉnh. Không lấy file trực tiếp từ `master`. Các cấu hình hiện vẫn là thử nghiệm: trước khi dùng thường xuyên cần thử riêng parser Shadowrocket, MITM, `requires-body`, giới hạn body, rules `REJECT-DROP`, `$notification` của Qidian và schema hiện tại của từng API. Chưa có fixture test upstream được xác nhận cho các transformer này; trong phần triển khai không chạy code tải về hoặc gọi API ứng dụng. Hash xác minh tính toàn vẹn, không xác minh hoạt động.
+
+## Nguồn chính đã xem
+
+- [app2smile/rules README](https://github.com/app2smile/rules), [MIT license](https://github.com/app2smile/rules/blob/master/LICENSE.md), [issue Tieba #247](https://github.com/app2smile/rules/issues/247).
+- Module/script app2smile: [Bilibili](https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili.sgmodule), [Tieba](https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule), [Qidian](https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.sgmodule), [Spotify](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module), [YouTube](https://raw.githubusercontent.com/app2smile/rules/master/module/youtube.sgmodule).
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) (license and README restrictions).
+- [chxm1023/Rewrite README](https://github.com/chxm1023/Rewrite).
+- [DualSubs/YouTube README](https://github.com/DualSubs/YouTube), [Apache-2.0 license](https://github.com/DualSubs/YouTube/blob/main/LICENSE).
+
+## Giới hạn nghiên cứu
+
+Trang GitHub xác nhận sự tồn tại của file, cấu hình văn bản, license khai báo và tài liệu; không chứng minh script còn chạy với phiên bản app hiện tại hay tương thích Shadowrocket. Không chạy code và không gọi API ứng dụng. Chưa rà mọi file trong repo upstream; riêng các module và script được vendor đã ghim commit và kiểm tra SHA-256 trong inventory. Tương thích module Surge/QX/Loon với Shadowrocket vẫn cần thử trên thiết bị.
+
+
+### Các pattern cấu hình upstream đã xác nhận
+
+Các biểu thức dưới đây được chép từ module/config upstream để người triển khai có thể đối chiếu; hãy giữ chúng cùng phiên bản script tương ứng khi ghim commit:
+
+- **Bilibili:** JSON `^https://app\.bilibili\.com/x/(v2/(splash/(list|show)|feed/index\?)|resource/show/tab/v2)`; Proto `^https://(grpc\.biliapi\.net|app\.bilibili\.com)/bilibili\.app\.(viewunite\.v1\.View/View|dynamic\.v2\.Dynamic/DynAll)$`. MITM hostnames `app.bilibili.com`, `grpc.biliapi.net`.
+- **Tieba:** JSON `^https?://(tiebac|c\.tieba)\.baidu\.com/(c/(s/sync|f/(ad/getSplashAd|frs/(page|threadlist|generalTabList)|pb/(pic)?page|excellent/personalized))$|tiebaads/commonbatch\?)`; Proto `^https?://(tiebac|c\.tieba)\.baidu\.com/c/(b/ad/adBid|f/(frs/(page|threadlist|generalTabList)|ad/getFeedAd|pb/page|excellent/personalized))\?cmd`. Module kèm `rule/tieba-ad.list`, MITM hostname `tiebac.baidu.com`.
+- **Qidian:** `^https://magev6\.if\.qidian\.com/argus/api/(v4/client/getsplashscreen|v2/(deeplink/geturl|dailyrecommend/getdailyrecommend)|v1/(client/getconf$|bookshelf/getHoverAdv|adv/getadvlistbatch\?positions=iOS_tab))`. MITM hostname `magev6.if.qidian.com`.
+- **Spotify (đã có):** request `^https://(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)/(artistview/v1/artist|album-entity-view/v2/album)/`; response `^https://(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)/(bootstrap/v1/bootstrap|user-customization-service/v1/customize)$`.
+- **YouTube (đã có):** response `^https://youtubei\.googleapis\.com/youtubei/v1/(browse|next)`, binary body, max 2 MiB. Tài liệu app2smile chỉ cấu hình hai nhóm endpoint browse/next.
+
+
+## Thực hiện self-host tại revision đã ghim
+
+Đã tạo năm module thử nghiệm: `modules/App2Smile-Bilibili.sgmodule`, `App2Smile-Tieba.sgmodule`, `App2Smile-Qidian.sgmodule`, `App2Smile-Zhihu.sgmodule` và `App2Smile-QQNews.sgmodule`. Các script được sao chép nguyên byte thành `js/app2smile-*.js`; URL trong `script-path` trỏ đến raw URL của repo này ở branch `codex/self-hosted-app-expansion`. Hash SHA-256 của từng file lưu trong `vendor/apps-lock.json`, nguồn và revision cố định `df6366a7024e0b3f0aa3510c5b791eea6f3cba89` được ghi kèm. Module đã sửa có cả `source_sha256` riêng và danh sách thay đổi; không dùng hash nguồn để đại diện nội dung đã sửa. License MIT được lưu riêng tại `licenses/app2smile-LICENSE`.
+
+Phạm vi hiện tại chỉ bật phần JSON cho Bilibili và Tieba. Hai module bỏ matcher Proto cùng script Proto, vì nội dung có dấu hiệu tích hợp protobuf-ts nhưng quyền/notice phụ thuộc thư viện đó chưa được đóng gói và xác nhận; tránh phát hành bản copy mà thiếu điều kiện license. Tieba và Zhihu đã nội tuyến các rule IP upstream để không còn tải ruleset ngoài. Ba module Qidian, Zhihu và QQNews dùng script JSON upstream tương ứng. Không thêm BaiduMap: nguồn chỉ có transformer binary, trong đó có dấu hiệu code js-md5; không có artifact license phụ trợ phù hợp để phát hành an toàn trong phạm vi này.
+
+Tất cả module ghi rõ `EXPERIMENTAL`; module upstream nhắm Surge/Loon/Quantumult X, không cam kết Shadowrocket. Các hash xác nhận tính toàn vẹn và nguồn, không phải test hành vi. Chưa chạy code tải về, chưa gửi request tới dịch vụ app và chưa xác nhận regex/body transform trên app hiện tại. Các giới hạn cụ thể vẫn gồm khả năng xử lý binary/body-size, parser module, cú pháp `REJECT-DROP`, `$notification` của Qidian, thay đổi schema API, và cache splash của QQNews.
+
+## Nguồn chính cho bản self-host
+
+- [app2smile/rules tại revision ghim](https://github.com/app2smile/rules/tree/df6366a7024e0b3f0aa3510c5b791eea6f3cba89), [MIT license tại revision ghim](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md).
+- Nguồn module: [Bilibili](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/bilibili.sgmodule), [Tieba](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/tieba.sgmodule), [Qidian](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qidian.sgmodule), [Zhihu](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/zhihu.sgmodule), [QQ News](https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qqnews.sgmodule).
+

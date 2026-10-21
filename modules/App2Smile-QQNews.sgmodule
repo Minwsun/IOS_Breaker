@@ -1,0 +1,9 @@
+#!name=App2Smile QQ News (experimental)
+#!desc=EXPERIMENTAL: splash removal may rely on fresh app install/cache state; Shadowrocket compatibility and current app behavior are unverified.
+# Adapted from app2smile/rules at df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).
+
+[MITM]
+hostname = %APPEND% news.ssp.qq.com, r.inews.qq.com
+
+[Script]
+qqnews-json = type=http-response,pattern=^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/(channel_feed|event_detail)|news_feed\/hot_module_list)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-qqnews.js,script-update-interval=0

@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-21",
+  "assets": [
+    {
+      "path": "js/vendor/sub-store/sub-store-0.min.js",
+      "url": "https://github.com/sub-store-org/Sub-Store/releases/download/2.42.6/sub-store-0.min.js",
+      "sha256": "45a1e55654d98f5f5cb73aa2a1f3210fb31e0430320eb630b2f080e8b62a10b5",
+      "group": "sub-store",
+      "license": "AGPL-3.0",
+      "revision": "1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/vendor/sub-store/sub-store-1.min.js",
+      "url": "https://github.com/sub-store-org/Sub-Store/releases/download/2.42.6/sub-store-1.min.js",
+      "sha256": "8f06453e5a3b5548f76084d0aea3410d616b941ca3e040cc6dfd5551bd967855",
+      "group": "sub-store",
+      "license": "AGPL-3.0",
+      "revision": "1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/vendor/sub-store/cron-sync-artifacts.min.js",
+      "url": "https://github.com/sub-store-org/Sub-Store/releases/download/2.42.6/cron-sync-artifacts.min.js",
+      "sha256": "fea8cb5fb60efb0996a1dfa96a3b36b1818f37c3f6549b8a253880c0584f6d50",
+      "group": "sub-store",
+      "license": "AGPL-3.0",
+      "revision": "1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "kind": "javascript"
+    },
+    {
+      "path": "licenses/Sub-Store-AGPL-3.0.txt",
+      "url": "https://raw.githubusercontent.com/sub-store-org/Sub-Store/1f0318bc6feb46fbe204836f32ca7acab37ea67e/LICENSE",
+      "sha256": "08e3bf9a0da8b80a8ca22489937661f31d3f851cd37a27033645bb05bbe4da90",
+      "group": "sub-store",
+      "license": "AGPL-3.0",
+      "revision": "1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "kind": "license"
+    },
+    {
+      "path": "vendor/sources/Sub-Store-2.42.6.tar.gz",
+      "url": "https://codeload.github.com/sub-store-org/Sub-Store/tar.gz/1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "sha256": "3b521770a99a419f73e649d7c1207c1a908cbe78820e05fd928dd62840135a8b",
+      "group": "sub-store",
+      "license": "AGPL-3.0",
+      "revision": "1f0318bc6feb46fbe204836f32ca7acab37ea67e",
+      "kind": "archive"
+    },
+    {
+      "path": "js/spotify-json.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json.js",
+      "sha256": "41cf1074770cdef3948baa12ff4a8db9045d1cac888714c8b7e69909eb531bc9",
+      "group": "spotify",
+      "license": "MIT",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/spotify-proto.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto.js",
+      "sha256": "2e6850e888d092905c766f0bbedc4b4afb9a712330970cc1265105d7fb4995d0",
+      "group": "spotify",
+      "license": "MIT",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/spotify-proto-test.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-proto-test.js",
+      "sha256": "840063f88319ed8f759c150bef549b943f0856404cdcd6f0e784e5025340ca1a",
+      "group": "spotify",
+      "license": "MIT",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/spotify-json2.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/spotify-json2.js",
+      "sha256": "d717551bc7c6c6b2df77dbf54f0de90a3e15404e8954bf4287cd10f0de30b232",
+      "group": "spotify",
+      "license": "MIT",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "kind": "javascript"
+    },
+    {
+      "path": "licenses/app2smile-LICENSE",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md",
+      "sha256": "f833786adb858e82204ed85c604f844ec59d268d65485f8e6aa66ebcb69ebe5d",
+      "group": "spotify",
+      "license": "MIT",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "kind": "license"
+    },
+    {
+      "path": "rules/Apple/Apple.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Apple/Apple.list",
+      "sha256": "0c0262104652ba952e4a933ecec393a33a11085c68c37d0b70c4074e7823f6cb",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/YouTube.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/YouTube/YouTube.list",
+      "sha256": "f764cd91a779982225b3553ece8033c86a6545f4990f5fefd356805de962aee9",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Netflix/Netflix.list",
+      "sha256": "ec37f90727e7db062d754487c4bed68ae8bba28f349aef0995f10c06f5e8b231",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/Disney.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Disney/Disney.list",
+      "sha256": "65ededc7b608e440f3d918f6e95b19ca52460c8fe368dbd9e840b4bc8669f753",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/HBO.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/HBO/HBO.list",
+      "sha256": "f89c50e9a1f433dc1acb8a75aa2cab27d4e2fd82f4fed6ba2820ce9b923680e2",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/Spotify.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Spotify/Spotify.list",
+      "sha256": "577afc9442a38c578e0aa8769b192d2f935e808114c60cbd5afd2294c79b74d0",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/BiliBili.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/BiliBili/BiliBili.list",
+      "sha256": "9b22a7bdf97792346bf480771841b6cd1097ec7ad034b34528c14f3798107854",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/TVB.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/TVB/TVB.list",
+      "sha256": "acc88bed2db0778b65428e6b3b67fa071e5b97fa34f6d62ef4deac4aaf8be942",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Media/TikTok.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/TikTok/TikTok.list",
+      "sha256": "94262918311e66c8a3bcf5a65173ff0c4e1ceaa29e24644acafadc127121a295",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Social/Telegram.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Telegram/Telegram.list",
+      "sha256": "09f093cce5b3e2994147a2640e03040aac75e1db7bf2103fd1c9a2509b0176ab",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Social/Twitter.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Twitter/Twitter.list",
+      "sha256": "64c836f2431ca0d4728cc545bb74280ee50c886e346040012e6cdd2f3eee3f97",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Social/Facebook.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Facebook/Facebook.list",
+      "sha256": "747563c96825bbd5f868be955543b0ca1979064e7b094f8aab08aafbce577c36",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Social/WeChat.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/WeChat/WeChat.list",
+      "sha256": "c48cebb11ccc41a56a22560b83c64bf0efdf9c598128da3771f36fe591a0924e",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/Steam.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Steam/Steam.list",
+      "sha256": "35826051b8797c7636210389fafadea23a16af51378feee20ededbb652b43332",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/SteamCN.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/SteamCN/SteamCN.list",
+      "sha256": "82c144434e9199c524d95caa8e3659c9f6f1de9fd23b223a58b5d3c821923936",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/Nintendo.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Nintendo/Nintendo.list",
+      "sha256": "ca3cf3ea5051ed220c255fbccbdd93e477f1c558e26ada6bf3dbcc2ba0487da2",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/Epic.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Epic/Epic.list",
+      "sha256": "8f5fcadadd967023aa81273803de80beb2ceadd9af4e9352b565b3b00ccf464d",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/Sony.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Sony/Sony.list",
+      "sha256": "c3c96668d832b2b4e94ab185c14e2931d6af99d5a106bb658b0d83160fc9a19f",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Gaming/Game.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Game/Game.list",
+      "sha256": "e99f3571e0e59461a125d2d0ca1abe53d1df4054e58704bc11272320ec6aa519",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/China.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/China/China.list",
+      "sha256": "65477cd1e2917a8ca09ba08132e9d9131c54c0d9e1cfcba0be2eaa8ea1a04b75",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/Lan.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Lan/Lan.list",
+      "sha256": "79c3b96f8064bf1b53678fb0dc7d9e92d74c729869fe8dc494afa2e9b12e2856",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/NetEaseMusic.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/NetEaseMusic/NetEaseMusic.list",
+      "sha256": "da8638a8414224a63dd29d7b45446956ed98c67f88d3b530c80b6c978191fc09",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/Baidu.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Baidu/Baidu.list",
+      "sha256": "ac49361bba37ccd12f46dff78885ef07218d9dc9deb254d71d1c0431a7eb921a",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/DouBan.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/DouBan/DouBan.list",
+      "sha256": "49b368896f4e38f4a31ac911b8e13fee923575884afe0d27a3cb1a0735551742",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/DouYin.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/DouYin/DouYin.list",
+      "sha256": "020e742fe4a7084268af6aa52c4153bf5bfd54c4d7a17466f42cd3461609e32a",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/Sina.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Sina/Sina.list",
+      "sha256": "223182b8b06af7838174f94839e1e799b39a9e283b66b0e1a71108539d7c2829",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/Zhihu.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Zhihu/Zhihu.list",
+      "sha256": "450c53b3762b1aa2f63631f8d07c7237338c8c691aeb475ed07583cfea9d5e33",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/CN/XiaoHongShu.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/XiaoHongShu/XiaoHongShu.list",
+      "sha256": "9fb20e80dc0962cfdf410ffbd72d6bf2a6a0ac0d930951880f98164ff229e8ff",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/Global.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Global/Global.list",
+      "sha256": "fb373ef5241d420117030d219b672c846bdaf759f4e618370028d1091ff78958",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/GitHub.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/GitHub/GitHub.list",
+      "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/Google.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Google/Google.list",
+      "sha256": "c6efe08ab4c0a12ddba20f5e75abfba2dd63a42b810f8cb5c303433a38e93b73",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/Microsoft.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Microsoft/Microsoft.list",
+      "sha256": "22df1a1017ad5d41755bf020ca8eb9afeedc7bdc2c649ed2074b255227a7ed8e",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/PayPal.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/PayPal/PayPal.list",
+      "sha256": "4ffb6f94d2f1eff835c24b533c3d1d6e0c5a4cfbc32740fa9c32315ae218fd18",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/Amazon.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/Amazon/Amazon.list",
+      "sha256": "83e604479e651e17734e965425969d475732463e3d3c942f22afa159532f27d4",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/Global/AppleNews.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/AppleNews/AppleNews.list",
+      "sha256": "ec57625e5b938396b92034c0d71eadbd0c4a1adbff8243f05d8bb97441ad1b26",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "rules/AI/ChatGPT.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/rule/Shadowrocket/OpenAI/OpenAI.list",
+      "sha256": "6f4047cdbf6953cf5d9b38c4ccd6da7bc6f1acb91b7a87134f25d5b8f5d2408b",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "rules"
+    },
+    {
+      "path": "licenses/blackmatrix7-GPL-2.0.txt",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "group": "rules",
+      "license": "GPL-2.0",
+      "revision": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "kind": "license"
+    }
+  ]
+}

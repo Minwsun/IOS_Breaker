@@ -1,0 +1,901 @@
+{
+  "conflict_groups": [
+    {
+      "id": "spotify-overlap",
+      "members": [
+        "modules/Spotify-Experimental.sgmodule",
+        "modules/Spotify-Upstream.sgmodule",
+        "modules/Spotify.sgmodule"
+      ],
+      "provider": "Spotify",
+      "reason": "Choose one Spotify module: their active rules overlap."
+    },
+    {
+      "id": "revenuecat-overlap",
+      "members": [
+        "modules/Locket.sgmodule",
+        "modules/RevenueCat-Legacy.sgmodule"
+      ],
+      "provider": "RevenueCat",
+      "reason": "Choose one RevenueCat response handler: overlapping receipt/subscriber rules can run twice."
+    }
+  ],
+  "generated_by": "scripts/build_app_catalog.py",
+  "javascript_processors": [
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/AlightMotion.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Bilibili.sgmodule"
+      ],
+      "path": "js/app2smile-bilibili-json.js",
+      "script_names": [
+        "bili-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/bilibili-json.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Qidian.sgmodule"
+      ],
+      "path": "js/app2smile-qidian.js",
+      "script_names": [
+        "qidian-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-QQNews.sgmodule"
+      ],
+      "path": "js/app2smile-qqnews.js",
+      "script_names": [
+        "qqnews-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qq-news.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Tieba.sgmodule"
+      ],
+      "path": "js/app2smile-tieba-json.js",
+      "script_names": [
+        "tieba-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": "MIT",
+      "modules": [
+        "modules/App2Smile-Zhihu.sgmodule"
+      ],
+      "path": "js/app2smile-zhihu.js",
+      "script_names": [
+        "zhihu-json"
+      ],
+      "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/zhihu.js",
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/BeautyPlus.sgmodule"
+      ],
+      "path": "js/BeautyPlus.js",
+      "script_names": [
+        "BeautyPlus"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Camera360.sgmodule"
+      ],
+      "path": "js/Camera360.js",
+      "script_names": [
+        "camera360"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/camScanner.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/Crack.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Locket.sgmodule"
+      ],
+      "path": "js/deleteHeader.js",
+      "script_names": [
+        "deleteHeader"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/itunes.sgmodule"
+      ],
+      "path": "js/iTunes.js",
+      "script_names": [
+        "iTunes"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/Kinemaster.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/lightroom.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/Locket_DuyVinh09.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/MeiTuXiuXiu.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/nhaccuatui.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/PicsArt.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/revenuecat-compatible.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/RevenueCat-Legacy.sgmodule"
+      ],
+      "path": "js/revenuecat.js",
+      "script_names": [
+        "RevenueCatVip"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Locket.sgmodule"
+      ],
+      "path": "js/RevenueCat_Universal.js",
+      "script_names": [
+        "revenuecat"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/snow.sgmodule"
+      ],
+      "path": "js/Snow.js",
+      "script_names": [
+        "snow"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/SODA.sgmodule"
+      ],
+      "path": "js/Soda.js",
+      "script_names": [
+        "soda"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/SoundCloudGoPlus.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Spotify-Experimental.sgmodule"
+      ],
+      "path": "js/spotify-capabilities-safe.js",
+      "script_names": [
+        "spotify-json2"
+      ],
+      "source": null,
+      "status": "experimental-unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Spotify.sgmodule"
+      ],
+      "path": "js/spotify-compatible.js",
+      "script_names": [
+        "spotify-proto"
+      ],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [
+        "modules/Spotify-Experimental.sgmodule"
+      ],
+      "path": "js/spotify-proto-test.js",
+      "script_names": [
+        "spotify-proto"
+      ],
+      "source": null,
+      "status": "experimental-unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/TrueCaller.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/VSCO.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/WinkVipCrack.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    },
+    {
+      "device_tested": false,
+      "license": null,
+      "modules": [],
+      "path": "js/youtube.response.js",
+      "script_names": [],
+      "source": null,
+      "status": "unverified"
+    }
+  ],
+  "modules": [
+    {
+      "description": "EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "app.bilibili.com"
+      ],
+      "module": "modules/App2Smile-Bilibili.sgmodule",
+      "name": "App2Smile Bilibili JSON (experimental)",
+      "notes": [
+        "!name=App2Smile Bilibili JSON (experimental)",
+        "!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+        "The upstream Proto transformer is intentionally omitted pending third-party license review."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/app\\.bilibili\\.com\\/x\\/(v2\\/(splash\\/(list|show)|feed\\/index\\?)|resource\\/show\\/tab\\/v2)",
+          "license": "MIT",
+          "local_script": "js/app2smile-bilibili-json.js",
+          "mitm_hosts": [
+            "app.bilibili.com"
+          ],
+          "name": "bili-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-bilibili-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/bilibili-json.js"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified; upstream notes proxy must stay enabled while using Qidian on Quantumult X.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "magev6.if.qidian.com"
+      ],
+      "module": "modules/App2Smile-Qidian.sgmodule",
+      "name": "App2Smile Qidian (experimental)",
+      "notes": [
+        "!name=App2Smile Qidian (experimental)",
+        "!desc=EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified; upstream notes proxy must stay enabled while using Qidian on Quantumult X."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/magev6\\.if\\.qidian\\.com\\/argus\\/api\\/(v4\\/client\\/getsplashscreen|v2\\/(deeplink\\/geturl|dailyrecommend\\/getdailyrecommend)|v1\\/(client\\/getconf$|bookshelf\\/getHoverAdv|adv\\/getadvlistbatch\\?positions=iOS_tab))",
+          "license": "MIT",
+          "local_script": "js/app2smile-qidian.js",
+          "mitm_hosts": [
+            "magev6.if.qidian.com"
+          ],
+          "name": "qidian-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-qidian.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: splash removal may rely on fresh app install/cache state; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "news.ssp.qq.com",
+        "r.inews.qq.com"
+      ],
+      "module": "modules/App2Smile-QQNews.sgmodule",
+      "name": "App2Smile QQ News (experimental)",
+      "notes": [
+        "!name=App2Smile QQ News (experimental)",
+        "!desc=EXPERIMENTAL: splash removal may rely on fresh app install/cache state; Shadowrocket compatibility and current app behavior are unverified."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(news\\.ssp\\.qq\\.com\\/app|r\\.inews\\.qq\\.com\\/(get(QQNewsUnreadList|TagFeedList)|gw\\/page\\/(channel_feed|event_detail)|news_feed\\/hot_module_list))",
+          "license": "MIT",
+          "local_script": "js/app2smile-qqnews.js",
+          "mitm_hosts": [
+            "news.ssp.qq.com",
+            "r.inews.qq.com"
+          ],
+          "name": "qqnews-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-qqnews.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qq-news.js"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "baidu.com",
+        "c.tieba",
+        "c.tieba.baidu.com"
+      ],
+      "module": "modules/App2Smile-Tieba.sgmodule",
+      "name": "App2Smile Tieba JSON (experimental)",
+      "notes": [
+        "!name=App2Smile Tieba JSON (experimental)",
+        "!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.",
+        "The upstream Proto transformer is intentionally omitted pending third-party license review."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/(tiebac|c\\.tieba)\\.baidu\\.com\\/(c\\/(s\\/sync|f\\/(ad\\/getSplashAd|frs\\/(page|threadlist|generalTabList)|pb\\/(pic)?page|excellent\\/personalized))$|tiebaads\\/commonbatch\\?)",
+          "license": "MIT",
+          "local_script": "js/app2smile-tieba-json.js",
+          "mitm_hosts": [
+            "baidu.com",
+            "c.tieba"
+          ],
+          "name": "tieba-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-tieba-json.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.zhihu.com",
+        "appcloud2.zhihu.com",
+        "www.zhihu.com"
+      ],
+      "module": "modules/App2Smile-Zhihu.sgmodule",
+      "name": "App2Smile Zhihu (experimental)",
+      "notes": [
+        "!name=App2Smile Zhihu (experimental)",
+        "!desc=EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(appcloud2\\.zhihu\\.com\\/v3\\/config$|www\\.zhihu\\.com\\/api\\/v4\\/(answers\\/\\d+\\/recommendations|articles\\/\\d+\\/recommendation)|api\\.zhihu\\.com\\/(topstory\\/recommend|commercial_api\\/(real_time_launch_v2|app_float_layer$)|questions\\/\\d+\\/feeds\\?|v4\\/questions\\/\\d+\\/answers\\?))",
+          "license": "MIT",
+          "local_script": "js/app2smile-zhihu.js",
+          "mitm_hosts": [
+            "api.zhihu.com",
+            "appcloud2.zhihu.com",
+            "www.zhihu.com"
+          ],
+          "name": "zhihu-json",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-zhihu.js",
+          "source": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/zhihu.js"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "BeautyPlus Premium Unlock",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.mr.pixocial.com",
+        "newbeee-api.beautyplus.com"
+      ],
+      "module": "modules/BeautyPlus.sgmodule",
+      "name": "BeautyPlus",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "https:\\/\\/(api\\.mr\\.pixocial\\.com\\/v1\\/manual_unlock|newbeee-api\\.beautyplus\\.com\\/api\\/v1\\/asset\\/balance)",
+          "license": null,
+          "local_script": "js/BeautyPlus.js",
+          "mitm_hosts": [
+            "api.mr.pixocial.com",
+            "newbeee-api.beautyplus.com"
+          ],
+          "name": "BeautyPlus",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/BeautyPlus.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "Tep Lenh Crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        ".camera360.com",
+        "camera360.com"
+      ],
+      "module": "modules/Camera360.sgmodule",
+      "name": "Camera360 pro",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/.*\\.camera360\\.com\\/(api\\/(order\\/purchase|iap\\/check-receipt)|v\\d\\/operational-positions)",
+          "license": null,
+          "local_script": "js/Camera360.js",
+          "mitm_hosts": [
+            "camera360.com"
+          ],
+          "name": "camera360",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Camera360.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "iTunes",
+      "device_tested": false,
+      "mitm_hosts": [
+        "buy.itunes.apple.com"
+      ],
+      "module": "modules/itunes.sgmodule",
+      "name": "iTunes",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/buy\\.itunes\\.apple\\.com\\/verifyReceipt$",
+          "license": null,
+          "local_script": "js/iTunes.js",
+          "mitm_hosts": [
+            "buy.itunes.apple.com"
+          ],
+          "name": "iTunes",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/iTunes.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "RevenueCat Universal Crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.revenuecat.com"
+      ],
+      "module": "modules/Locket.sgmodule",
+      "name": "Locket Gold",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.revenuecat\\.com\\/.+\\/(receipts$|subscribers\\/[^/]+$)",
+          "license": null,
+          "local_script": "js/RevenueCat_Universal.js",
+          "mitm_hosts": [
+            "api.revenuecat.com"
+          ],
+          "name": "revenuecat",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/RevenueCat_Universal.js",
+          "source": null
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.revenuecat\\.com\\/.+\\/(receipts|subscribers)",
+          "license": null,
+          "local_script": "js/deleteHeader.js",
+          "mitm_hosts": [
+            "api.revenuecat.com"
+          ],
+          "name": "deleteHeader",
+          "phase": "http-request",
+          "requires_body": null,
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/deleteHeader.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "Use instead of the All-In-One RevenueCat response handler; never enable both.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "api.rc-backup.com",
+        "api.revenuecat.com"
+      ],
+      "module": "modules/RevenueCat-Legacy.sgmodule",
+      "name": "RevenueCat Legacy (experimental)",
+      "notes": [
+        "!name=RevenueCat Legacy (experimental)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/api\\.(revenuecat|rc-backup)\\.com\\/.+\\/(receipts$|subscribers\\/[^/]+$)",
+          "license": null,
+          "local_script": "js/revenuecat.js",
+          "mitm_hosts": [],
+          "name": "RevenueCatVip",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat.js",
+          "source": null
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "snow crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "user-snow-api.snow.me"
+      ],
+      "module": "modules/snow.sgmodule",
+      "name": "snow",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/user-snow-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Snow.js",
+          "mitm_hosts": [
+            "user-snow-api.snow.me"
+          ],
+          "name": "snow",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Snow.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "SOSA crack",
+      "device_tested": false,
+      "mitm_hosts": [
+        "purchase-soda-api.snow.me"
+      ],
+      "module": "modules/SODA.sgmodule",
+      "name": "SODA",
+      "notes": [],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https?:\\/\\/purchase-soda-api\\.snow\\.me\\/v\\d\\/purchase\\/subscription\\/subscriber\\/status",
+          "license": null,
+          "local_script": "js/Soda.js",
+          "mitm_hosts": [
+            "purchase-soda-api.snow.me"
+          ],
+          "name": "soda",
+          "phase": "http-response",
+          "requires_body": "true",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Soda.js",
+          "source": null
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "description": "",
+      "device_tested": false,
+      "mitm_hosts": [
+        "spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify-Experimental.sgmodule",
+      "name": "SpotifyTest",
+      "notes": [
+        "Source app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT); local URL adaptation.",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "app2smile/rules"
+        },
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/device-capabilities\\/v1\\/capabilities",
+          "license": "MIT",
+          "local_script": "js/spotify-capabilities-safe.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json2",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-capabilities-safe.js",
+          "source": "app2smile/rules"
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)$",
+          "license": "MIT",
+          "local_script": "js/spotify-proto-test.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-proto-test.js",
+          "source": "app2smile/rules"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)",
+      "device_tested": false,
+      "mitm_hosts": [
+        "spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify-Upstream.sgmodule",
+      "name": "Spotify Upstream (2026-02-25)",
+      "notes": [
+        "Source app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT); local URL adaptation.",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module."
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "app2smile/rules"
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)$",
+          "license": "MIT",
+          "local_script": "js/spotify-proto.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-proto.js",
+          "source": "app2smile/rules"
+        }
+      ],
+      "status": "experimental-unverified"
+    },
+    {
+      "description": "Local wire-preserving response patch; device validation required. No offline/HiFi promise.",
+      "device_tested": false,
+      "mitm_hosts": [
+        "spclient.spotify.com",
+        "spclient.wg.spotify.com",
+        "spotify.com"
+      ],
+      "module": "modules/Spotify.sgmodule",
+      "name": "Spotify Compatibility (experimental)",
+      "notes": [
+        "Module pattern source: app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).",
+        "Experimental Shadowrocket compatibility; do not enable alongside another Spotify module.",
+        "!name=Spotify Compatibility (experimental)"
+      ],
+      "scripts": [
+        {
+          "binary_body_mode": null,
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/",
+          "license": "MIT",
+          "local_script": "js/spotify-json.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-json",
+          "phase": "http-request",
+          "requires_body": "0",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js",
+          "source": "app2smile/rules"
+        },
+        {
+          "binary_body_mode": "1",
+          "endpoint_regex": "^https:\\/\\/(spclient\\.wg\\.spotify\\.com|.*-spclient\\.spotify\\.com(:443)?)\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)(\\?[^#]*)?$",
+          "license": "MIT",
+          "local_script": "js/spotify-compatible.js",
+          "mitm_hosts": [
+            "spclient.wg.spotify.com",
+            "spotify.com"
+          ],
+          "name": "spotify-proto",
+          "phase": "http-response",
+          "requires_body": "1",
+          "script_source_url": "https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-compatible.js",
+          "source": "app2smile/rules"
+        }
+      ],
+      "status": "experimental-unverified"
+    }
+  ],
+  "schema_version": 1,
+  "validation_policy": "No current device-test evidence was found; all entries are marked unverified."
+}

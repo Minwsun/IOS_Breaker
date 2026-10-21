@@ -1,0 +1,14 @@
+#!name=App2Smile Zhihu (experimental)
+#!desc=EXPERIMENTAL: Shadowrocket compatibility and current app behavior are unverified.
+# Adapted from app2smile/rules at df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).
+
+[Rule]
+DOMAIN,118.89.204.198,REJECT-DROP
+IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
+
+[MITM]
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com
+
+[Script]
+zhihu-json = type=http-response,pattern=^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/(answers\/\d+\/recommendations|articles\/\d+\/recommendation)|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-zhihu.js,script-update-interval=0

@@ -1,0 +1,16 @@
+#!name=App2Smile Tieba JSON (experimental)
+#!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.
+#!arguments=per_filter_video:0
+#!arguments-desc=per_filter_video: setting 1 hides video posts from recommendation feed.
+# Adapted from app2smile/rules at df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).
+# The upstream Proto transformer is intentionally omitted pending third-party license review.
+
+[Rule]
+DOMAIN,180.76.76.200,REJECT-DROP
+IP-CIDR,180.76.76.200/32,REJECT-DROP,no-resolve
+
+[MITM]
+hostname = %APPEND% tiebac.baidu.com, c.tieba.baidu.com
+
+[Script]
+tieba-json = type=http-response,pattern=^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-tieba-json.js,script-update-interval=0

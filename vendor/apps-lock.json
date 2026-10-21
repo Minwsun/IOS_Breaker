@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "modules/App2Smile-Bilibili.sgmodule",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/bilibili.sgmodule",
+      "sha256": "6bfcb099f1459112ff1411a64ab75c9ba85d7aad38f0d2e28a8c1580301d979b",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "module",
+      "source_sha256": "af7ee5612cd71318d81bbcda51eafc53e62a2a19f5d438fced97a7ac96689434",
+      "modifications": [
+        "Removed Proto transformer because embedded protobuf runtime provenance/license was not cleared."
+      ]
+    },
+    {
+      "path": "modules/App2Smile-Tieba.sgmodule",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/tieba.sgmodule",
+      "sha256": "807a6b53ff11f490d205df944fc86ad2eb16784d313738b6c0df0f369e4bda64",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "module",
+      "source_sha256": "b20d792a1f4466e97103266942176d6db4579340ba201a4fa8db91da2adfda29",
+      "modifications": [
+        "Removed Proto transformer because embedded protobuf runtime provenance/license was not cleared.",
+        "Inlined tieba-ad.list host rules to eliminate remote ruleset dependency."
+      ]
+    },
+    {
+      "path": "modules/App2Smile-Qidian.sgmodule",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qidian.sgmodule",
+      "sha256": "87860057596aa713e40c25e0ea487de668a074fa535d387f57bc6216ed8bd102",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "module",
+      "source_sha256": "7ec098e9bf9333aee75ba39385f3e93a9b639e1d3e2cee49b760edcb15a5ad0d",
+      "modifications": [
+        "Changed script-path to this repository pinned-revision raw URL.",
+        "Added explicit script-update-interval=0."
+      ]
+    },
+    {
+      "path": "modules/App2Smile-Zhihu.sgmodule",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/zhihu.sgmodule",
+      "sha256": "e4eb3df8964cfbbcbf0fc4f7b4b6b269f1cef724cbdd8c9e959efa564bceeb43",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "module",
+      "source_sha256": "91cdc117856fd4fa9075aeca800b8be6f1e5b3db3fd499b3aadf10d15e2fa8d8",
+      "modifications": [
+        "Inlined zhihu-ad.list host rules to eliminate remote ruleset dependency."
+      ]
+    },
+    {
+      "path": "modules/App2Smile-QQNews.sgmodule",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/module/qqnews.sgmodule",
+      "sha256": "b6716b9e968acd6819a0bbed2b2cd0dde2a536ae256699d79253942c42d86931",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "module",
+      "source_sha256": "dbc36baa324c803bbcfdf0a6590faf58e2d5c8d8c18d1fd460a174600751847b",
+      "modifications": [
+        "Changed script-path to this repository pinned-revision raw URL.",
+        "Added explicit script-update-interval=0."
+      ]
+    },
+    {
+      "path": "js/app2smile-bilibili-json.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/bilibili-json.js",
+      "sha256": "748ad16a92532bde2c439a8b9975f465381d20e24328cf2a58ff3a2a27328d84",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/app2smile-tieba-json.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js",
+      "sha256": "91040c0d5bf906357829d8df344a3bdce00b59e6c24f255e54a2ef7a46d04c69",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/app2smile-qidian.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js",
+      "sha256": "e599a063040ecb222ad5d4f8666157ef1ee31495aef6d87fb13453dce46f5c19",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/app2smile-zhihu.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/zhihu.js",
+      "sha256": "f37f82608f476d08652035f4a0c2ec5576923962f554e69f5f53ec9f1b80fa4d",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "javascript"
+    },
+    {
+      "path": "js/app2smile-qqnews.js",
+      "url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qq-news.js",
+      "sha256": "98b921f278eae3f4d99751a35c2b0c867b9716bd20713da14859f4033f8c7394",
+      "revision": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "license": "MIT",
+      "kind": "javascript"
+    }
+  ]
+}

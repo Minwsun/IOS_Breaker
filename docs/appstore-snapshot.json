@@ -1,0 +1,114 @@
+{
+  "checked_on": "2026-10-21",
+  "source": "https://itunes.apple.com/lookup?id=1365531024,324684580,1346247457,588013838,878691772,333710667,1593408455,1630403500,953286746,1444636541,1455009060,1600525061&country=us",
+  "apps": [
+    {
+      "trackId": 1365531024,
+      "trackName": "1Blocker: Ad Blocker",
+      "bundleId": "com.khanov.BlockerX",
+      "version": "6.7",
+      "currentVersionReleaseDate": "2026-10-07T12:00:19Z",
+      "minimumOsVersion": "16.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/1blocker-ad-blocker/id1365531024?uo=4"
+    },
+    {
+      "trackId": 324684580,
+      "trackName": "Spotify: Music and Podcasts",
+      "bundleId": "com.spotify.client",
+      "version": "9.1.92",
+      "currentVersionReleaseDate": "2026-10-19T13:57:56Z",
+      "minimumOsVersion": "16.1",
+      "trackViewUrl": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580?uo=4"
+    },
+    {
+      "trackId": 1346247457,
+      "trackName": "Endel: Focus & Sleep Sounds",
+      "bundleId": "com.endel.endel",
+      "version": "4.9.1",
+      "currentVersionReleaseDate": "2026-10-15T10:41:15Z",
+      "minimumOsVersion": "26.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/endel-focus-sleep-sounds/id1346247457?uo=4"
+    },
+    {
+      "trackId": 588013838,
+      "trackName": "VSCO: Photo & Video Editor",
+      "bundleId": "co.visualsupply.cam",
+      "version": "461.10.1",
+      "currentVersionReleaseDate": "2026-10-16T22:19:41Z",
+      "minimumOsVersion": "15.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838?uo=4"
+    },
+    {
+      "trackId": 878691772,
+      "trackName": "Pillow: Sleep Tracker",
+      "bundleId": "com.neybox.Pillow",
+      "version": "6.6.2",
+      "currentVersionReleaseDate": "2026-10-08T19:17:24Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/pillow-sleep-tracker/id878691772?uo=4"
+    },
+    {
+      "trackId": 333710667,
+      "trackName": "Scanner Pro - Scan to PDF",
+      "bundleId": "com.readdle.Scanner",
+      "version": "9.0.2",
+      "currentVersionReleaseDate": "2026-10-15T15:20:19Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/scanner-pro-scan-to-pdf/id333710667?uo=4"
+    },
+    {
+      "trackId": 1593408455,
+      "trackName": "Anybox - Bookmark & Read Later",
+      "bundleId": "cc.anybox.Anybox",
+      "version": "2.14.1",
+      "currentVersionReleaseDate": "2026-09-23T16:49:15Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/anybox-bookmark-read-later/id1593408455?uo=4"
+    },
+    {
+      "trackId": 1630403500,
+      "trackName": "APTV",
+      "bundleId": "com.kimen.aptvpro",
+      "version": "1.5.12",
+      "currentVersionReleaseDate": "2026-10-01T13:10:46Z",
+      "minimumOsVersion": "15.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/aptv/id1630403500?uo=4"
+    },
+    {
+      "trackId": 953286746,
+      "trackName": "Darkroom: Photo & Video Editor",
+      "bundleId": "co.bergen.Darkroom",
+      "version": "7.4.1",
+      "currentVersionReleaseDate": "2026-10-13T13:59:51Z",
+      "minimumOsVersion": "18.4",
+      "trackViewUrl": "https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746?uo=4"
+    },
+    {
+      "trackId": 1444636541,
+      "trackName": "Photomator – Photo Editor",
+      "bundleId": "com.pixelmatorteam.pixelmator.touch.x.photo",
+      "version": "3.4.15",
+      "currentVersionReleaseDate": "2026-08-27T17:35:53Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/photomator-photo-editor/id1444636541?uo=4"
+    },
+    {
+      "trackId": 1455009060,
+      "trackName": "Photoroom: AI Photo Editor",
+      "bundleId": "com.dr1ven.eraser",
+      "version": "2026.43.01",
+      "currentVersionReleaseDate": "2026-10-19T07:59:02Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/photoroom-ai-photo-editor/id1455009060?uo=4"
+    },
+    {
+      "trackId": 1600525061,
+      "trackName": "Locket Widget",
+      "bundleId": "com.locket.Locket",
+      "version": "2.69.0",
+      "currentVersionReleaseDate": "2026-10-17T18:56:55Z",
+      "minimumOsVersion": "15.0",
+      "trackViewUrl": "https://apps.apple.com/us/app/locket-widget/id1600525061?uo=4"
+    }
+  ]
+}

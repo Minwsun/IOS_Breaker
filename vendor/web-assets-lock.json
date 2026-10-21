@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "assets/vendor/tailwind/tailwind-browser-3.4.17.js",
+      "url": "https://cdn.tailwindcss.com",
+      "sha256": "176e894661aa9cdc9a5cba6c720044cbbf7b8bd80d1c9a142a7c24b1b6c50d15",
+      "kind": "website-asset",
+      "version_and_license": "Tailwind CSS browser Play CDN 3.4.17 / MIT"
+    },
+    {
+      "path": "assets/vendor/aos/aos-2.3.1.css",
+      "url": "https://unpkg.com/aos@2.3.1/dist/aos.css",
+      "sha256": "1aa8845fd06e475aefe733d4e55b36a92fcd487975049c8172341827ac9cc03e",
+      "kind": "website-asset",
+      "version_and_license": "AOS 2.3.1 / MIT"
+    },
+    {
+      "path": "assets/vendor/aos/aos-2.3.1.js",
+      "url": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+      "sha256": "f268612ba59ead1b24353bb77d66783bcc435aff1c22be5f93c40bac3869968e",
+      "kind": "website-asset",
+      "version_and_license": "AOS 2.3.1 / MIT"
+    },
+    {
+      "path": "assets/vendor/feather/feather-4.29.2.min.js",
+      "url": "https://unpkg.com/feather-icons@4.29.2/dist/feather.min.js",
+      "sha256": "ea465ac6b69a037dc49fda6ab1c585f95725091eff4515df61db91d9d3c5e54e",
+      "kind": "website-asset",
+      "version_and_license": "Feather Icons 4.29.2 / MIT"
+    },
+    {
+      "path": "assets/vendor/fontawesome/css/all.min.css",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      "sha256": "1edb1725a9ea8ca4dcf2f5508cee183218aa1685e47c1b23056717f754f58ebf",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / MIT (code), CC BY 4.0 (icons), SIL OFL 1.1 (fonts)"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-brands-400.woff2",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2",
+      "sha256": "748332090c4b8e20f95d0ff59f0be20fa9c889359d3b36d4b886d73376054207",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-brands-400.ttf",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.ttf",
+      "sha256": "20c4a58bc9d1d69e935d06f1528923646a715be5e218665655cade8f5f1b8c00",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-regular-400.woff2",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.woff2",
+      "sha256": "8e7e5ea1b15f62ab14dbd41768e8fbcd21cc859a4ea5da812457ee714299fb35",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-regular-400.ttf",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.ttf",
+      "sha256": "528d022dce6725f8a0811fd91d8e6513445c81ef33353a5c3234eab932551abf",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-solid-900.woff2",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2",
+      "sha256": "7152a6933ee3d690ec2af3d09da9d701723d16aa3410a6d80f28ff8866f3b880",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-solid-900.ttf",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.ttf",
+      "sha256": "67a65763c7f80903d81603bbeb9049fc2bf28508479b83ed011fe24c71fa950a",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-v4compatibility.woff2",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.woff2",
+      "sha256": "694a17c3d9d6c05f8aac63c544615552a4b220e9a4de863d87341a6bcfc1bc8d",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    },
+    {
+      "path": "assets/vendor/fontawesome/webfonts/fa-v4compatibility.ttf",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.ttf",
+      "sha256": "0515a423f828ce4e6accf92a2ea0b03d19d31cc86d9af0373291e1fd4db5f348",
+      "kind": "website-asset",
+      "version_and_license": "Font Awesome Free 6.4.0 / SIL OFL 1.1"
+    }
+  ]
+}

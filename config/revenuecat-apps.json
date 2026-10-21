@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "apps": [
+    {
+      "slug": "1Blocker",
+      "name": "1Blocker",
+      "user_agent_tokens": [
+        "1Blocker",
+        "BlockerX"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:70",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "VSCO",
+      "name": "VSCO",
+      "user_agent_tokens": [
+        "VSCO"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:72",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Pillow",
+      "name": "Pillow",
+      "user_agent_tokens": [
+        "Pillow"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:68",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "ScannerPro",
+      "name": "Scanner Pro",
+      "user_agent_tokens": [
+        "ScannerPro"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:77",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Anybox",
+      "name": "Anybox",
+      "user_agent_tokens": [
+        "Anybox"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:101",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "APTV",
+      "name": "APTV",
+      "user_agent_tokens": [
+        "APTV"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:93",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Darkroom",
+      "name": "Darkroom",
+      "user_agent_tokens": [
+        "Darkroom"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:163",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Photomator",
+      "name": "Photomator",
+      "user_agent_tokens": [
+        "Photomator"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:38",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Photoroom",
+      "name": "Photoroom",
+      "user_agent_tokens": [
+        "PhotoRoom"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:127",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Locket",
+      "name": "Locket",
+      "user_agent_tokens": [
+        "Locket"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:110",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "OffScreen",
+      "name": "OffScreen",
+      "user_agent_tokens": [
+        "OffScreen"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:76",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Noto",
+      "name": "Noto",
+      "user_agent_tokens": [
+        "Noto"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:103",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "WidgetSmith",
+      "name": "WidgetSmith",
+      "user_agent_tokens": [
+        "WidgetSmith"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:105",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "HTTPBot",
+      "name": "HTTPBot",
+      "user_agent_tokens": [
+        "HTTPBot"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:81",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Grow",
+      "name": "Grow",
+      "user_agent_tokens": [
+        "Grow"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:104",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    },
+    {
+      "slug": "Unfold",
+      "name": "Unfold",
+      "user_agent_tokens": [
+        "Unfold"
+      ],
+      "evidence_status": "legacy User-Agent selector only; device compatibility unverified",
+      "source": "js/revenuecat.js:60",
+      "product_ids": "Not recorded or verified here; runtime requests SDK mapping from RevenueCat. Legacy source is evidence for User-Agent only.",
+      "limitations": "New revenuecat-compatible.js only: signed responses pass through; no server purchase is granted; legacy handler has different behavior."
+    }
+  ]
+}

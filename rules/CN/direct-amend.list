@@ -1,1 +1,3 @@
-404: Not Found
+# Locally maintained DIRECT amendments.
+# The previous upstream URL returned 404; no rules are enabled here.
+# Add Shadowrocket DOMAIN / DOMAIN-SUFFIX / IP-CIDR entries as needed.

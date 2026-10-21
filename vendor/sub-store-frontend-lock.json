@@ -1,0 +1,1509 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-21",
+  "package": "Sub-Store-Front-End",
+  "version": "2.34.1",
+  "repository": "https://github.com/sub-store-org/Sub-Store-Front-End",
+  "tag": "2.34.1",
+  "commit": "8dc19320894a9dbb3569e8bf3e41057491e39b90",
+  "license": "GPL-3.0",
+  "deployment_base": "/IOS_Breaker/assets/sub-store/",
+  "default_api": "https://sub.store",
+  "release_asset": {
+    "name": "dist.zip",
+    "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+    "bytes": 2437313,
+    "sha256": "b8116df45fe061987c9bce09d15adc8f8e311134e9105be040b94db43ebc433d"
+  },
+  "source_archive": {
+    "path": "vendor/sources/Sub-Store-Front-End-2.34.1.tar.gz",
+    "url": "https://github.com/sub-store-org/Sub-Store-Front-End/archive/refs/tags/2.34.1.tar.gz",
+    "bytes": 1299533,
+    "sha256": "293c07e3cf339456336920fa5186ab990127319a7db0ed5b0ee18eb8f305c077"
+  },
+  "assets": [
+    {
+      "path": "assets/sub-store/144x144.png",
+      "sha256": "b7b876f1eab6e4efd94589edc5965819d9ba3702ae78f62b0a19c39da54a42d8",
+      "bytes": 8051,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/144x144.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/168x168.png",
+      "sha256": "b496dc31ceb54565d0a323f5a94e3dc31d29badca0cccad14a7bebf9882231d3",
+      "bytes": 9889,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/168x168.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/192x192.png",
+      "sha256": "5bbbb7c18ecc2e0a75ff95fffbf86a9e6b0d292aca999476edd4c22f208cdcfd",
+      "bytes": 11962,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/192x192.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/256x256.png",
+      "sha256": "56479b116cac20b8a4851756512e42c1ec9b821fa2d69ed8e9f51565c0ef912d",
+      "bytes": 17788,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/256x256.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/48x48.png",
+      "sha256": "ee811657c042a50587b0e7255a6bf0b4d775a07f5490a04a66a770c3539287d5",
+      "bytes": 2141,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/48x48.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/512x512.png",
+      "sha256": "ff1ec73bb19be2bb3e48643029536bc6bdab978cbe5cf94e9ee2e5a8ae34f027",
+      "bytes": 50584,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/512x512.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/72x72.png",
+      "sha256": "6947c338b659e568450acf537a568e7a4bfd014b640f981b28e10053ca2c126a",
+      "bytes": 3413,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/72x72.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/96x96.png",
+      "sha256": "f1c36584a0c838dade3bc7b8b210e993d5f54ea5020b6c22db9e463d715be815",
+      "bytes": 5036,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/96x96.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/apple-touch-icon.png",
+      "sha256": "7963bee6f19649f7ff7bf0f9858a9652682e660a8b59f4bb222b759a0d8ded1b",
+      "bytes": 11069,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/apple-touch-icon.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/clash.png",
+      "sha256": "06ff5cbaf8503731b1b26a166334b971d1ddcdcb713ac8bdcc1ad8e2b1416214",
+      "bytes": 2530,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/clash.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/favicon.ico",
+      "sha256": "25ba38ea8fa76a62c9916ad6e6b170a4533c08756b6883ba194f03bba71722f9",
+      "bytes": 15406,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/favicon.ico",
+      "license": "GPL-3.0",
+      "kind": "ico"
+    },
+    {
+      "path": "assets/sub-store/favicon.svg",
+      "sha256": "3bc10e1f7e2ecdc7dc5cbe82fb875f3184df3abb342589cf7521888b90cbb57a",
+      "bytes": 4414,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/favicon.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/index.html",
+      "sha256": "9620a595b395d93f81905277befc978360cb5c17f8f272e7581086bf79d1324c",
+      "bytes": 2020,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/index.html",
+      "license": "GPL-3.0",
+      "kind": "html",
+      "upstream_sha256": "c702af541cdcf368bce0009e3f79dbde526f7df5bc8b1ae7bcc8a53b1b5a7a08",
+      "local_changes": "Add a deployment base and make shell asset references relative."
+    },
+    {
+      "path": "assets/sub-store/index.js",
+      "sha256": "740688cc3f43bb934d52f56734de4078e7c6b57b2841aefd71fbde7ccb45a133",
+      "bytes": 1777,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/index.js",
+      "license": "GPL-3.0",
+      "kind": "js",
+      "upstream_sha256": "afa7f68c47259ecf65e5dbbfd1b8e3f3c03632fcffa460a5705dc7f780dc84ff",
+      "local_changes": "Resolve preloaded chunks and CSS against the entry module URL."
+    },
+    {
+      "path": "assets/sub-store/logo.png",
+      "sha256": "3fb0c18d96c0a1e12de0247106535c56f54f3e288704abd9cc9b72aa9703620c",
+      "bytes": 7257,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/logo.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/loon.png",
+      "sha256": "59ce8881c11539cc2660f1da7cfa50e76616d2729a6060ed3082615d3d0e89a1",
+      "bytes": 2728,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/loon.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/manifest.webmanifest",
+      "sha256": "19a092dfe87406a7d4e4b5d9616bb3a1cb01a194c1ab5e54617c23bf4d6191c2",
+      "bytes": 649,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/manifest.webmanifest",
+      "license": "GPL-3.0",
+      "kind": "webmanifest",
+      "upstream_sha256": "3b54664be271eac08e7235a587f03f9b899c3337590fd0fb5d6ed4da6170ab1a",
+      "local_changes": "Set PWA id, start URL, and scope relative to the manifest."
+    },
+    {
+      "path": "assets/sub-store/manifests.json",
+      "sha256": "3f88b6a258940ea2c9d7ee94fdee177cd2fdb5fee56fbd9294e22ea7dc3fb5c2",
+      "bytes": 840,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/manifests.json",
+      "license": "GPL-3.0",
+      "kind": "json",
+      "upstream_sha256": "42b6a1a769f100aee9c3e7258a66b15d35a8efc7ab607c17c8f3c24fecb3e1db",
+      "local_changes": "Set PWA id, start URL, and scope relative to the manifest."
+    },
+    {
+      "path": "assets/sub-store/maskable-512x512.png",
+      "sha256": "983fcc938d42570db8e6bd57f422d6214328e95d13854b216e3fa69ce19099ef",
+      "bytes": 13269,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/maskable-512x512.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/quanx.png",
+      "sha256": "e067ad0918951d25ff4d771f62aa7a97c559e4b383e065ba4f19cfa23d7d2083",
+      "bytes": 1407,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/quanx.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/registerSW.js",
+      "sha256": "99e74cbd4390219ac59d6357868d29641af395763f8a287a2c1268de20374969",
+      "bytes": 196,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/registerSW.js",
+      "license": "GPL-3.0",
+      "kind": "js",
+      "upstream_sha256": "9742073ef7fc795e7673d98f272992843298426a0ffd8cb3507784df5143608b",
+      "local_changes": "Register the service worker inside the deployment base scope."
+    },
+    {
+      "path": "assets/sub-store/shadowrocket.png",
+      "sha256": "7ee22ac5e9fbe92513369320fdcb3c820466836e711964dede4afc6bdbbe6e2c",
+      "bytes": 2564,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/shadowrocket.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/stash.png",
+      "sha256": "8140206f502343a665545313e539763ecc2cc457a79ca8e7bd4ad1fc94829adb",
+      "bytes": 2590,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/stash.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/surge.png",
+      "sha256": "0416de535b19233fc5dfe1b6d746275b74df3fb4d40f62865fb2eeb93b9b9ed5",
+      "bytes": 1251,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/surge.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/sw.js",
+      "sha256": "a9ec4fe5715375951323b875bea97caa5b22916046688f8068037b1ce752658a",
+      "bytes": 10569,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/sw.js",
+      "license": "GPL-3.0",
+      "kind": "js",
+      "upstream_sha256": "55d963bbb35b6a659da84f067cd68f012655cbf6d0e4b8412561bec03891800b",
+      "local_changes": "Resolve navigation fallback relative to the service-worker scope."
+    },
+    {
+      "path": "assets/sub-store/v2ray.png",
+      "sha256": "6013c9b32c02a81da9270af264a7dc9e8539e87faebf30309e8868c2f72868c0",
+      "bytes": 3821,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/v2ray.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/vercel.json",
+      "sha256": "f737902b9c6db0431b83a47cf257f1867c52accd3e1dee785ff03754dd7fb9e1",
+      "bytes": 110,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/vercel.json",
+      "license": "GPL-3.0",
+      "kind": "json"
+    },
+    {
+      "path": "assets/sub-store/workbox-0e56c8ee.js",
+      "sha256": "2ae124d84d27f6df21ab6c8955d8e6cc410be8ca757e2462e6b19ffd76d67252",
+      "bytes": 15671,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/workbox-0e56c8ee.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/AboutUs-ec7c3ee0.js",
+      "sha256": "efbcf1cdbe1061eef9c7c9c2d5e6395135c84624a4402d54cc8e284a719dd95a",
+      "bytes": 2847,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/AboutUs-ec7c3ee0.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/actionsToPorcess-37c4d10b.js",
+      "sha256": "8754d0ab3b1b312306319065b69c189d79e55d6ed4a6c7bf58b89335b9f3c4c6",
+      "bytes": 52915,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/actionsToPorcess-37c4d10b.js",
+      "license": "GPL-3.0",
+      "kind": "js",
+      "upstream_sha256": "a746506927f1645569a6ef953b7d70523a6aa75a8dafe5fa66a2422f3aed7e64",
+      "local_changes": "Resolve bundled image URL relative to the deployment base."
+    },
+    {
+      "path": "assets/sub-store/chunks/actionsToPorcess-37c4d10b.js.gz",
+      "sha256": "0dc396050ec53467492fc53a0f645e1d91d33920d80a6991c92764571fa9189c",
+      "bytes": 15083,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/actionsToPorcess-37c4d10b.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/APISetting-3a7d2ff7.js",
+      "sha256": "cd435627b86e3f22433ca906040af01e298515aafd0aa67e0b2a36c1f7562dc2",
+      "bytes": 13414,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/APISetting-3a7d2ff7.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/APISetting-3a7d2ff7.js.gz",
+      "sha256": "d96a855d889dc128113137859e32930c80b32c0c259f7822eb27671eed3d38f7",
+      "bytes": 4383,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/APISetting-3a7d2ff7.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/Archive-a8524e75.js",
+      "sha256": "25275a75c75f3b041153d025844e2f6981249d60fc41a4416c53a033070cc231",
+      "bytes": 24780,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/Archive-a8524e75.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/Archive-a8524e75.js.gz",
+      "sha256": "656a4a0649c2d97e8b3c1c96fd0a4884ed952a1dbb852afce7881ffc49d3914e",
+      "bytes": 6526,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/Archive-a8524e75.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/core-bdfb7bbc.js",
+      "sha256": "cfb1d874c5038d7f51f5e6a05ddbec0cd9146e5639e414300c0de3523ec1b93e",
+      "bytes": 116963,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/core-bdfb7bbc.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/core-bdfb7bbc.js.gz",
+      "sha256": "16ded9bb25d3011164870e42496386c781fb874e395ae3c69ed3e6e15d22ae86",
+      "bytes": 36041,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/core-bdfb7bbc.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/datepicker-fc42caa3.js",
+      "sha256": "0daa1d782d4fa18ded6b4211285746acb7216c48e6a61c86bc4287cf8a07f773",
+      "bytes": 187234,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/datepicker-fc42caa3.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/datepicker-fc42caa3.js.gz",
+      "sha256": "bb21de38590a45ad05f8d66741ee73522085fdef8fe36b718bffbcf4eb2f638b",
+      "bytes": 51004,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/datepicker-fc42caa3.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/editor-3f6229b5.js",
+      "sha256": "2f659772badc9243eba3ae808e7b1b82a335d954217c6b22f14fd868523f0ef3",
+      "bytes": 581156,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/editor-3f6229b5.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/editor-3f6229b5.js.gz",
+      "sha256": "ae5e5f056dc855d57831c2f0dda53ba05c498508d6090cf6aa8af9b6c32ae1c5",
+      "bytes": 186651,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/editor-3f6229b5.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/editorTabState-1ab9c4ff.js",
+      "sha256": "2d8f3ac64fad6946abfed2818d1c646a5d8ec17643dbcb61b67ce693830cf6a4",
+      "bytes": 15691,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/editorTabState-1ab9c4ff.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/editorTabState-1ab9c4ff.js.gz",
+      "sha256": "035cf59466cff4ee2d1e08dbe1f37ef6040f65c5143704bfce742fab7f750542",
+      "bytes": 5293,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/editorTabState-1ab9c4ff.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/editorTabValidation-f55eba00.js",
+      "sha256": "bbc697727c6c81266c24f81a4b3105341c9c9592cc83183a32854059c79da022",
+      "bytes": 252,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/editorTabValidation-f55eba00.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/engine-javascript-751dd70f.js",
+      "sha256": "6581e804d3c3b1c51e508aae0b15269c456be147087160570125f57aa29c1d3b",
+      "bytes": 61513,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/engine-javascript-751dd70f.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/engine-javascript-751dd70f.js.gz",
+      "sha256": "e0fb7507f7eb9d1475d255eb252c3d480ff9d64e9b87b201ffac22ae2939b6a5",
+      "bytes": 21041,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/engine-javascript-751dd70f.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/FileEditor-f6d692e9.js",
+      "sha256": "ec3a60fa17cce744a86782f33e3aa085d3f3e508d0fb07fbe65ee6f156531d91",
+      "bytes": 27730,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/FileEditor-f6d692e9.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/FileEditor-f6d692e9.js.gz",
+      "sha256": "33e3781fe96b52af11841562c3c498276cc3bc584a5eee2ab52d3fd710dfbdf4",
+      "bytes": 8459,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/FileEditor-f6d692e9.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/i18n-2238c952.js",
+      "sha256": "0923019f8aa7cfa557c5ee668be14a49a65dee7d05b9b173c5ae9a6f9b6b237e",
+      "bytes": 48866,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/i18n-2238c952.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/i18n-2238c952.js.gz",
+      "sha256": "e77a90a1dc805eb1fdf3897e4ded6267f508f64b14011a0691c6b5e98eeefee3",
+      "bytes": 16533,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/i18n-2238c952.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/icons-9ae38b04.js",
+      "sha256": "860a851159a6edca83ef561083513f91719174bdaf21453d5e5103f4b42a45b2",
+      "bytes": 87644,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/icons-9ae38b04.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/icons-9ae38b04.js.gz",
+      "sha256": "10d044cf5c21b57009bcfa5c2d6cca37bc1aac5d5a293d7e941681575df3d317",
+      "bytes": 27771,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/icons-9ae38b04.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/index-6a8abdff.js",
+      "sha256": "2f73eb715685a5d20611b3c108bed62cf03825fd0ae52afe997cc0afbded19fb",
+      "bytes": 26950,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/index-6a8abdff.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/index-6a8abdff.js.gz",
+      "sha256": "6ae5eb36fd0e57262185ee9bf210764162c99202fdf7bb568027b3e205c182ba",
+      "bytes": 7568,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/index-6a8abdff.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/index-71f3910f.js",
+      "sha256": "f55b0c0802866513b2287979934de96ba6e71b6894dafaf0242fd176d6f6cc5a",
+      "bytes": 1541,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/index-71f3910f.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/ini-d556ebf0.js",
+      "sha256": "f592aa26250dd052e6cb3a4bead0d3447951861a720c4de82a2ac4b6c5c3d89f",
+      "bytes": 1523,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/ini-d556ebf0.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/javascript-3f0c3992.js",
+      "sha256": "58f206391d3c78e0990f30ae8714a2cdb73d4f16d5053109d0a05987734d5cc1",
+      "bytes": 174824,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/javascript-3f0c3992.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/javascript-3f0c3992.js.gz",
+      "sha256": "91b20f079001a2979d8392adf5099c9eb88591d456997f59a5b636df4503b77b",
+      "bytes": 16134,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/javascript-3f0c3992.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/json-e64f6f4e.js",
+      "sha256": "8087875e410bc67849df86164fe87b998fe367649f79d0010d50b2d804407ff5",
+      "bytes": 2820,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/json-e64f6f4e.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/json5-e1df1a68.js",
+      "sha256": "a7ace41ca0158349e04efa57d0949d6c3669ae44fea1d7ac0b9d824536c47588",
+      "bytes": 3252,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/json5-e1df1a68.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/Logs-02814f21.js",
+      "sha256": "fd8f3016a3c7b34475873e3de9ff942c635bd460e34a796aee78f4b44525656b",
+      "bytes": 307,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/Logs-02814f21.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/main-bc07a4ee.js",
+      "sha256": "ea8e8caa7ee3db68c381054ec7a75ab7c851362eb337bd0c2e646d8b829d9ba6",
+      "bytes": 821547,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/main-bc07a4ee.js",
+      "license": "GPL-3.0",
+      "kind": "js",
+      "upstream_sha256": "446234996d17c93cf333d0960a9c7cee4f7d9cff8df6312efb2136b6d827a2c5",
+      "local_changes": "Resolve bundled image URLs relative to the deployment base."
+    },
+    {
+      "path": "assets/sub-store/chunks/main-bc07a4ee.js.gz",
+      "sha256": "99baf9159d15d63a9513f94005279db2176c0ec416a1265468c1f2a2f6bca0e8",
+      "bytes": 257844,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/main-bc07a4ee.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/moreSetting-9e5a5882.js",
+      "sha256": "90f1ec25ea3ea6f481a9d4ae2bd6bfa6bbc9c3baa0a8b73bc7536062856d20e5",
+      "bytes": 17161,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/moreSetting-9e5a5882.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/moreSetting-9e5a5882.js.gz",
+      "sha256": "b85995f148db52f23fda25f907719fc0e6c9476c511b29a6ba422cc8b602ce94",
+      "bytes": 3959,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/moreSetting-9e5a5882.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/NotFound-7db7d9b0.js",
+      "sha256": "d6f72703f4db762627a955b24badc5e3b74aba8298421f13d6f59f8b3faf5e86",
+      "bytes": 743,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/NotFound-7db7d9b0.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/nutui-52d90713.js",
+      "sha256": "23be40502580ba5f25e7911a559eb1e3c4b3eaa74a1f84a964d9e3a1fe621106",
+      "bytes": 118967,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/nutui-52d90713.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/nutui-52d90713.js.gz",
+      "sha256": "79497e3e5aa7ff73a1da818c25369b4cb6001794cc3e872336d0ec6a0d3e93c0",
+      "bytes": 34137,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/nutui-52d90713.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/Share-f0c222a4.js",
+      "sha256": "8eb386487154b0887053d9e06e8468e8b5acea10c87757f044cee79794f004b3",
+      "bytes": 23857,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/Share-f0c222a4.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/Share-f0c222a4.js.gz",
+      "sha256": "2cc0be7671902526bbc9129f17851b8613b0ea5ea9ecc5360df056a35c73ac00",
+      "bytes": 7197,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/Share-f0c222a4.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/ShareEditorPage-bc412e30.js",
+      "sha256": "22a579a7f40c4556d82213f3a44f3fdf80d2cb4f9e3a181688703f1c8296b012",
+      "bytes": 30670,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/ShareEditorPage-bc412e30.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/ShareEditorPage-bc412e30.js.gz",
+      "sha256": "42ba8d95547feaba25aa7b0545433b304c2f335c15b87bc60106f3bdbde1d025",
+      "bytes": 9411,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/ShareEditorPage-bc412e30.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/SubEditor-2dabf6fd.js",
+      "sha256": "8e653fe6fa4320d2df48d0030c6ceb7fd291e44333a1807b9b1c5e822fb535e1",
+      "bytes": 40084,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/SubEditor-2dabf6fd.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/SubEditor-2dabf6fd.js.gz",
+      "sha256": "783b42c34073f4173a6ded9c65898ad018fb6857fa4ea175c321acccb1dfb35f",
+      "bytes": 12391,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/SubEditor-2dabf6fd.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/SyncEditor-465716c2.js",
+      "sha256": "cb0bfa173f2d8f379a7b904841bd4ce8b9d88280822f908bf8df3c601862de68",
+      "bytes": 16217,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/SyncEditor-465716c2.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/SyncEditor-465716c2.js.gz",
+      "sha256": "9629c1659cad2e38182ab1b4ec0ed9b1a3b41126aef929aa85811d77313c4e27",
+      "bytes": 5344,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/SyncEditor-465716c2.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/useListViewModeSelectionLock-7d2ab11c.js",
+      "sha256": "a05dca7bbe90f09a1b924d5ac4adeb8b776584cb478098f7a25cf11cd2068a63",
+      "bytes": 269,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/useListViewModeSelectionLock-7d2ab11c.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/vue-vendor-a7997bc6.js",
+      "sha256": "d6d0c13a554ddba831a277a619d3b7f154b45e855ac3f9c5accd6b402df6d42a",
+      "bytes": 243480,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/vue-vendor-a7997bc6.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/vue-vendor-a7997bc6.js.gz",
+      "sha256": "7f3bbefb9d8d8cab16f21c203fa32e34d500d07899fd2801d82fb746a0856065",
+      "bytes": 89361,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/vue-vendor-a7997bc6.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/chunks/yaml-5cd2c3da.js",
+      "sha256": "580e5081955472292574cc651b6a540475e97101a035d8e50e94e93ed668b259",
+      "bytes": 10507,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/yaml-5cd2c3da.js",
+      "license": "GPL-3.0",
+      "kind": "js"
+    },
+    {
+      "path": "assets/sub-store/chunks/yaml-5cd2c3da.js.gz",
+      "sha256": "97f52c1f8afc188c2f0ef597ee3c26b69f960f7118de1f5d4aaf0df354c452df",
+      "bytes": 2259,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/chunks/yaml-5cd2c3da.js.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/AboutUs.css",
+      "sha256": "985ff0df677704465fb9f8bbd93a7f2ebfb2286dc4d89d731162882dcfcb335d",
+      "bytes": 1750,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/AboutUs.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/actionsToPorcess.css",
+      "sha256": "d4e8a992bd1348aab8387c710b729220e172559a9ecd1a8f15ec1c91a49781b9",
+      "bytes": 22573,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/actionsToPorcess.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/actionsToPorcess.css.gz",
+      "sha256": "7dc80acfcecb276e799c8437466e5cab10939a8ed0ff74055a22454576c06533",
+      "bytes": 3630,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/actionsToPorcess.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/APISetting.css",
+      "sha256": "c3868920482c5a21635d68eb4f2ccdafdeaffec200c63ba24896c0c9669a7526",
+      "bytes": 5339,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/APISetting.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/Archive.css",
+      "sha256": "a8dd660c29fac697dcae55c2b7595f2c26a9892d66e0b4ab8d71df09a558522e",
+      "bytes": 8190,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/Archive.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/datepicker.css",
+      "sha256": "a43a7c4735bf12071b7ba9284021379af943bc27ff50a3da650fc30d0a371d17",
+      "bytes": 23547,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/datepicker.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/datepicker.css.gz",
+      "sha256": "d61acd3ffdb8da22936c116119d5c054f0f739db032bd7c17f9a47b6b72a25fe",
+      "bytes": 4439,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/datepicker.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/editorTabState.css",
+      "sha256": "bac828a54d2135c5671f442af72743605f255493804857275a44088241a73efc",
+      "bytes": 6011,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/editorTabState.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/FileEditor.css",
+      "sha256": "43bf462d06995048948c0928acfd83422fd3644d4b38e9f15270d354127d6a9b",
+      "bytes": 6095,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/FileEditor.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/main.css",
+      "sha256": "5aeb0a7eb3f3b5782e4c84dacd1ed5eef83cbe6308ab63a900e978f3a49ad2aa",
+      "bytes": 122373,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/main.css",
+      "license": "GPL-3.0",
+      "kind": "css",
+      "upstream_sha256": "1a8e8d0d92afd19af7acb6ebe6ad6a257217ec1a69656d462d98ef39d4d1d9a6",
+      "local_changes": "Resolve bundled font URLs relative to the stylesheet directory."
+    },
+    {
+      "path": "assets/sub-store/css/main.css.gz",
+      "sha256": "ae1b23249285e037840d436e7d6a8b40240736a96dff206ed8f0d8832b547a78",
+      "bytes": 17083,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/main.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/moreSetting.css",
+      "sha256": "0ce648a69f6db43297a3873d677f2e231cd909e4ce09f8a6dd9cee08e6c2ea7d",
+      "bytes": 4471,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/moreSetting.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/NotFound.css",
+      "sha256": "4a60bf403db0000c90a3b2af2739664cf034f89d37cc03623781501af4dcff91",
+      "bytes": 208,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/NotFound.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/nutui.css",
+      "sha256": "408cb43d9b400b73eb6d7484859bea27267dfefb255d31bea335ec1b04d04282",
+      "bytes": 51298,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/nutui.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/nutui.css.gz",
+      "sha256": "3b2f917ca5b0f9f2c1826755f5e95694e3e2e94498c11031c9478c2143ba4808",
+      "bytes": 8949,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/nutui.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/Share.css",
+      "sha256": "545562c44f913665d95c607b117c2f8cdc93629b53b2539192dad796377b91d2",
+      "bytes": 11433,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/Share.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/Share.css.gz",
+      "sha256": "366e2209be3bda6fc46a56318cbb197a883ecc65b5641b027b7ff544b9ff58cb",
+      "bytes": 2203,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/Share.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/ShareEditorPage.css",
+      "sha256": "c3705d4897afa038fc71bcc636ba799ba3710dbc2ac843e763fe1e412eff7075",
+      "bytes": 10032,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/ShareEditorPage.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/SubEditor.css",
+      "sha256": "ca6a91293a665ef7c08216c2797ae5a0cbe406979c2475b877f7c2b6dcf290ed",
+      "bytes": 13146,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/SubEditor.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/css/SubEditor.css.gz",
+      "sha256": "11a72207ba09ea6f88b33caf7f3c3a4cec0f10e64fd16cab589994f2c8424844",
+      "bytes": 2300,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/SubEditor.css.gz",
+      "license": "GPL-3.0",
+      "kind": "gz"
+    },
+    {
+      "path": "assets/sub-store/css/SyncEditor.css",
+      "sha256": "54dea32483a0d92d94bf8df0e630e07d0158750a041206b7ea12d7b609977782",
+      "bytes": 4237,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/css/SyncEditor.css",
+      "license": "GPL-3.0",
+      "kind": "css"
+    },
+    {
+      "path": "assets/sub-store/fonts/3x_static_iconfont.ttf",
+      "sha256": "fa1e8c6660b130c1adbfceea9a8ac7528b4a8ffd51dbbbdbcb67ccc6c1e3f6d0",
+      "bytes": 30276,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/3x_static_iconfont.ttf",
+      "license": "GPL-3.0",
+      "kind": "ttf"
+    },
+    {
+      "path": "assets/sub-store/fonts/3x_static_iconfont.woff",
+      "sha256": "7966a9bd5c989116a9ae05af581cb4b42ba1d92313200d411e87c3decc49406a",
+      "bytes": 18188,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/3x_static_iconfont.woff",
+      "license": "GPL-3.0",
+      "kind": "woff"
+    },
+    {
+      "path": "assets/sub-store/fonts/3x_static_iconfont.woff2",
+      "sha256": "d9a93f95fe119e8c532627bb727bd4c1ca4f175bd19dbb33f2f80d28b97254d5",
+      "bytes": 15624,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/3x_static_iconfont.woff2",
+      "license": "GPL-3.0",
+      "kind": "woff2"
+    },
+    {
+      "path": "assets/sub-store/fonts/jetbrainsmononl-regular.woff",
+      "sha256": "b42c63b558b025772c34427a1ce0e2e883716d5360328ca1983c8571936f4514",
+      "bytes": 28172,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/jetbrainsmononl-regular.woff",
+      "license": "GPL-3.0",
+      "kind": "woff"
+    },
+    {
+      "path": "assets/sub-store/fonts/jetbrainsmononl-regular.woff2",
+      "sha256": "1a31ee47d7a2a93630873f4f307b3ac7301cc7977679f14c162e7c691d2fa040",
+      "bytes": 20916,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/jetbrainsmononl-regular.woff2",
+      "license": "GPL-3.0",
+      "kind": "woff2"
+    },
+    {
+      "path": "assets/sub-store/fonts/roboto-bold.woff",
+      "sha256": "e6aacb0be4d38fc5990b59a772b542fa8b38340658cf2e4834d68dfced2eca51",
+      "bytes": 26584,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/roboto-bold.woff",
+      "license": "GPL-3.0",
+      "kind": "woff"
+    },
+    {
+      "path": "assets/sub-store/fonts/roboto-bold.woff2",
+      "sha256": "d5ff8ba0594c862bfa2ab8c98b202aec05eb2c5643b9ad0e0a548dd3d008a4e3",
+      "bytes": 19676,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/roboto-bold.woff2",
+      "license": "GPL-3.0",
+      "kind": "woff2"
+    },
+    {
+      "path": "assets/sub-store/fonts/roboto-light.woff",
+      "sha256": "adedf0063c0c9aec1be938dd2df464111a963c260f7f30c45c739d4a6f6896ca",
+      "bytes": 25840,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/roboto-light.woff",
+      "license": "GPL-3.0",
+      "kind": "woff"
+    },
+    {
+      "path": "assets/sub-store/fonts/roboto-light.woff2",
+      "sha256": "29c9d3487f4ad1b085cbe102094e35bd9e1500f197011380ad1a0077636ee24a",
+      "bytes": 19092,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/fonts/roboto-light.woff2",
+      "license": "GPL-3.0",
+      "kind": "woff2"
+    },
+    {
+      "path": "assets/sub-store/images/avatar.svg",
+      "sha256": "b17e852d156c838968a06284083ff96997631dc171f1679f2c2152c96a7d4634",
+      "bytes": 3871,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/avatar.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/clash_color.png",
+      "sha256": "44263998c50aebde9db4986c9f2e22914ded0ad4b07a569ae2119c2c50d58866",
+      "bytes": 16648,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/clash_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/clash.png",
+      "sha256": "06ff5cbaf8503731b1b26a166334b971d1ddcdcb713ac8bdcc1ad8e2b1416214",
+      "bytes": 2530,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/clash.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/clashmeta_color.png",
+      "sha256": "909b1c31110b210d73f69cf75bbde7a48e51a2ffdaf94503499ebfc8448db775",
+      "bytes": 13004,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/clashmeta_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/clashmeta.png",
+      "sha256": "41dc497c9cf07eca3e453729cf18e211f266712263b722be84f6dc0579fb95c3",
+      "bytes": 2938,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/clashmeta.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/concurrency.svg",
+      "sha256": "1a402303f9a4359d0f663b1a49c1be1058aef896846dfdb95ad41bb18e357d91",
+      "bytes": 1493,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/concurrency.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/copy.svg",
+      "sha256": "a8243981593187839232186a7dcbdff4fa5a4d7eb3235234e1291b3e5b19b5bf",
+      "bytes": 1147,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/copy.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/del.svg",
+      "sha256": "ee316cb407d0772169dc897ecb71393a5e7d4fd18b9150ce5efbb00cfe8d0cd2",
+      "bytes": 818,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/del.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/egern_color.png",
+      "sha256": "cbaccfcdd339a1359a282c20dca0c0102f066fdb744f149f7a0e69d571bcc75f",
+      "bytes": 61657,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/egern_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/egern.png",
+      "sha256": "2316b0bafa3c89f22e0c9ba7db46c84940474467984f7de58e6d809fc357a00a",
+      "bytes": 12307,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/egern.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/encryption.svg",
+      "sha256": "f4a27275f7371fbef883eaf9e8b7b33b5fb2cb297abdaac68ca241fa3721f45d",
+      "bytes": 666,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/encryption.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/format.svg",
+      "sha256": "eac4a604b02eefe88be7deea0807177e92627694ef79a89719b61187810662ee",
+      "bytes": 703,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/format.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/gist-upload.svg",
+      "sha256": "6b24d34aa2fe9982fdaa809d6b92c58f3d5b79490fe1917bf4cd61fb54051bc0",
+      "bytes": 569,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/gist-upload.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/githubProxy.svg",
+      "sha256": "c466d53593c9054e5f397bfa30ae913059603505435f67cce0440ec5c1a59e15",
+      "bytes": 2044,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/githubProxy.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/headersCacheTtl.svg",
+      "sha256": "d6ff3b6c8927934d4ef1b766ac7cd8eb9c827f093e17b7687cdcb079b267ca59",
+      "bytes": 971,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/headersCacheTtl.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/json.svg",
+      "sha256": "741faf46b738e1f9310c019c5c55bf23dc46b9fb4d21857c81fafac999c66bc9",
+      "bytes": 24111,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/json.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/key-solid.svg",
+      "sha256": "2c05aac302e5719c68c8665e71ab05cc9f4c43f8c0735b0a4fbab85a561a3310",
+      "bytes": 940,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/key-solid.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/logo-red.png",
+      "sha256": "99c1900a7fe2c5abfa75ff1d5a13d18b9e46417e53d9eab5a63b180e2e1bcdc1",
+      "bytes": 23653,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/logo-red.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/logo.png",
+      "sha256": "c880891498c3dd27bf218db9aa5d9c150eb9738b053a6cd4dd3b719554fcd345",
+      "bytes": 15402,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/logo.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/logsMaxCount.svg",
+      "sha256": "2e3798f5d83d9dc05ee720e65cc09177516a5923f666aa1f175400566ffa2699",
+      "bytes": 526,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/logsMaxCount.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/loon_color.png",
+      "sha256": "10c31aa38ffc63e7b99806343b140426bb64102c79d67b646e2deebe15000b11",
+      "bytes": 12520,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/loon_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/loon.png",
+      "sha256": "59ce8881c11539cc2660f1da7cfa50e76616d2729a6060ed3082615d3d0e89a1",
+      "bytes": 2728,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/loon.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/max.svg",
+      "sha256": "03fabced85f3e1342231df3472199dfea4f5e18ef4d33d707a1a275400fef091",
+      "bytes": 1651,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/max.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/more.svg",
+      "sha256": "18ff6ba71590dfbf1af0d0a22a1077529b2464b04c3f19b6a4631defb5bfbef3",
+      "bytes": 622,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/more.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/node.svg",
+      "sha256": "5009259491b18eeb09a836ebde8b5bcf43257b9c6f6d7eeba38abb3df63e6fee",
+      "bytes": 5873,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/node.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/proxy.svg",
+      "sha256": "7496cb86323bd00986800556ac6746c88568882d637a50717a46cfec4092a20a",
+      "bytes": 2057,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/proxy.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/quanx_color.png",
+      "sha256": "3c904e928dada16e73fd9935d7948e288e78de8cabee0a62b7d16b142675dab8",
+      "bytes": 13863,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/quanx_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/redo.svg",
+      "sha256": "d3af5e1c05267ba0481264321b8b675bcf21bfa2a88444501256bfd7707d4cbb",
+      "bytes": 700,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/redo.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/resourceCacheTtl.svg",
+      "sha256": "03725a42ae613fe8f7a681a433132306e7bf1bb786addd790cc229523a1e9817",
+      "bytes": 1460,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/resourceCacheTtl.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/scriptCacheTtl.svg",
+      "sha256": "a2b16c82b7d58546de9894643ea2c6933c8e428a5730e6b0e7c77cb6b5ec044e",
+      "bytes": 683,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/scriptCacheTtl.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/search.svg",
+      "sha256": "7b631d0e62dca7620f4f7d79a1d4e59c353beb1e6426bdc129ff143eb65037d9",
+      "bytes": 910,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/search.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/shadowrocket_color.png",
+      "sha256": "cf935c75006c46a146ee6c1a957e658967d79005d7c294747832cbb0c7c1f8cf",
+      "bytes": 17635,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/shadowrocket_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/shadowrocket.png",
+      "sha256": "7ee22ac5e9fbe92513369320fdcb3c820466836e711964dede4afc6bdbbe6e2c",
+      "bytes": 2564,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/shadowrocket.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/sing-box_color.png",
+      "sha256": "f20213a1b9c9f24e44d0e9f47fd9f9b3b0cc9927f347598fc605270fe1eabaf1",
+      "bytes": 11330,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/sing-box_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/sing-box.png",
+      "sha256": "9755a767582d38d74497a5a85079429e55dbad45102dae17650cf8b34db6e161",
+      "bytes": 2690,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/sing-box.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/stash_color.png",
+      "sha256": "102bdd64103cf92074da99009252e6d6fe6752a7e2a086b114c2d01384525c37",
+      "bytes": 27667,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/stash_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/stash.png",
+      "sha256": "19c1a64d44f2a697ab19004167b69cebd8c36153ecec26eed49401e7e2501ecd",
+      "bytes": 2915,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/stash.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/surfboard_color.png",
+      "sha256": "f7258261b9cca36b3a9183d78966714f41a6a68dd99c97cba10e2c45533ceabc",
+      "bytes": 10229,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/surfboard_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/surfboard.png",
+      "sha256": "95ccf7ab8143a91dca746aacc7813faa3956332f44caf5e77782a922c71743d1",
+      "bytes": 3108,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/surfboard.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/surge_color.png",
+      "sha256": "15c23744843175170da30a1cdd2921f721f478b64e3660475adba2cf48e4dfb1",
+      "bytes": 12877,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/surge_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/surgeformac_text_color.png",
+      "sha256": "b4c3955e8cb29cf909ad2c91980589d2dcf8b19ea82917064f45e1933fa0c0a3",
+      "bytes": 5395,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/surgeformac_text_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/timeout.svg",
+      "sha256": "7c513e314b16b041ab61ded9a5ed8896034577eaf47592686ec32d835a3704fc",
+      "bytes": 2787,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/timeout.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/tw.png",
+      "sha256": "73c0333353966f2b4d15eea273c609bf428d92cd5c27c62628f8b924e2f0e152",
+      "bytes": 10299,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/tw.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/undo.svg",
+      "sha256": "60bd2f2658279e3ca0a0cf3be6ef89422f831f836483c4166c54e1ee16ca3ad6",
+      "bytes": 698,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/undo.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/uri.svg",
+      "sha256": "daebcaf1ab6adca361d02b57a653f6e6c7ef4c6d76d1386187537c684a050eb8",
+      "bytes": 4398,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/uri.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/user-agent.svg",
+      "sha256": "59fb7aa6433d54fd323e07eb7013134cfc4528f2d48a94745a025f1a1b3b7833",
+      "bytes": 1330,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/user-agent.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/user-solid.svg",
+      "sha256": "2c8cd2fe28df0ded8c1da0f0578fa4fc7a43c818fcb66dc4decfe2b1cfc0154e",
+      "bytes": 728,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/user-solid.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/sub-store/images/v2ray_color.png",
+      "sha256": "c749ec5662dbfe86623c8b4e94a9e1d8f179c01ff411779de9b5ae5be0ca7b94",
+      "bytes": 7118,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/v2ray_color.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/v2ray.png",
+      "sha256": "6013c9b32c02a81da9270af264a7dc9e8539e87faebf30309e8868c2f72868c0",
+      "bytes": 3821,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/v2ray.png",
+      "license": "GPL-3.0",
+      "kind": "png"
+    },
+    {
+      "path": "assets/sub-store/images/zt.svg",
+      "sha256": "e8b675d69c3b301d9ea46922123a4b848b6391766cefc42fbd8d862c0e4df7c3",
+      "bytes": 971,
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/releases/download/2.34.1/dist.zip",
+      "source_entry": "dist/images/zt.svg",
+      "license": "GPL-3.0",
+      "kind": "svg"
+    },
+    {
+      "path": "vendor/sources/Sub-Store-Front-End-2.34.1.tar.gz",
+      "sha256": "293c07e3cf339456336920fa5186ab990127319a7db0ed5b0ee18eb8f305c077",
+      "bytes": 1299533,
+      "license": "GPL-3.0",
+      "kind": "source-archive",
+      "url": "https://github.com/sub-store-org/Sub-Store-Front-End/archive/refs/tags/2.34.1.tar.gz"
+    },
+    {
+      "path": "licenses/Sub-Store-Front-End-GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "license": "GPL-3.0",
+      "kind": "license",
+      "url": "https://raw.githubusercontent.com/sub-store-org/Sub-Store-Front-End/2.34.1/LICENSE"
+    }
+  ]
+}

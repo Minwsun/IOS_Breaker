@@ -2,8 +2,8 @@
 #!desc=snow crack
 
 [Script]
-snow = type=http-response, pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/snow.js, requires-body=true, max-size=-1, timeout=60
+snow = type=http-response, pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status, script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/Snow.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% user-snow-api.snow.me
+hostname = %APPEND%, user-snow-api.snow.me
 

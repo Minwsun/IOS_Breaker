@@ -1,0 +1,10 @@
+#!name=App2Smile Bilibili JSON (experimental)
+#!desc=EXPERIMENTAL: JSON response filtering only; Shadowrocket compatibility and current app behavior are unverified.
+# Adapted from app2smile/rules at df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT).
+# The upstream Proto transformer is intentionally omitted pending third-party license review.
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
+
+[Script]
+bili-json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/app2smile-bilibili-json.js,script-update-interval=0

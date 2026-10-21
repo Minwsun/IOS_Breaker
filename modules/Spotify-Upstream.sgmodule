@@ -1,0 +1,18 @@
+# Source app2smile/rules df6366a7024e0b3f0aa3510c5b791eea6f3cba89 (MIT); local URL adaptation.
+# Experimental Shadowrocket compatibility; do not enable alongside another Spotify module.
+# Device-unverified upstream fallback; do not enable with another Spotify module.
+#!name=Spotify Upstream (2026-02-25)
+#!desc=2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)
+# 仓库地址 https://github.com/app2smile/rules
+# 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
+
+[Header Rewrite]
+# if-none-match返回304状态码
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
+
+[MITM]
+hostname = %APPEND%, spclient.wg.spotify.com, *spclient.spotify.com
+
+[Script]
+spotify-json = type=http-request,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/,requires-body=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-json.js
+spotify-proto = type=http-response,pattern=^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/spotify-proto.js,script-update-interval=0

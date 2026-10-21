@@ -1,0 +1,14 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.sgmodule text eol=lf
+*.conf text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+# Vendor checksums are computed over exact stored bytes, including line endings.
+# Keep these after extension rules so extracted JSON is not normalized by Git.
+js/** -text
+rules/** -text
+licenses/** -text
+assets/vendor/** -text
+assets/sub-store/** -text
+vendor/sources/** -text

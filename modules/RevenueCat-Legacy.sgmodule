@@ -1,0 +1,6 @@
+#!name=RevenueCat Legacy (experimental)
+#!desc=Use instead of the All-In-One RevenueCat response handler; never enable both.
+[Script]
+RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Minwsun/IOS_Breaker/refs/heads/codex/self-hosted-app-expansion/js/revenuecat.js, requires-body=true, max-size=-1, timeout=60
+[MITM]
+hostname = %APPEND%, api.revenuecat.com, api.rc-backup.com
